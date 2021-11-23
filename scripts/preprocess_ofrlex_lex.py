@@ -48,6 +48,9 @@ def ofrlex_inventory(file):
 	del df['poids']
 	del df['i']
 
+	# suppr. symboles de neutralisation
+	df['form'] = df['form'].str.replace("§","")
+
 # New col: add file source
 	df['file_src'] = str(file)
 
