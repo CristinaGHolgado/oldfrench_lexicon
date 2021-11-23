@@ -41,6 +41,10 @@ def prep_file(file):
 	df = df.fillna("_")
 	df = df[~df.upos.str.contains("PUNCT")]
 
+	# convert _ to - in forma & remove spaces
+	df['form'] = df['form'].str.replace("_","-")
+	df['form'] = df['form'].str.replace(" ","-")
+
 	# column form lemma pos: concat values
 	df['flp'] = df['form'] + "_" + df['lemma'] + "_" + df['upos']
 	df['flp'] = df['flp'].str.lower()
