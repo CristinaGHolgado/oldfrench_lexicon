@@ -218,7 +218,7 @@ Recherche de formes préfixées dans les formes manquantes à partir d’une lis
 
 [prefixe] sor - [forme trouvé] sorcroissant - [radical attesté] - croissant - [lemme associé] - croissir___750428_… - [POS] v  
 
-### **Ressources**  
+### :file_folder: **Ressources**  
 - [Liste prédéfinie de préfixes](https://github.com/CristinaGHolgado/oldfrench_lexicon/blob/master/scripts/prefixes/fichiers/prefixes.txt)  
 - [Liste de formes manquantes](https://github.com/CristinaGHolgado/oldfrench_lexicon/blob/master/scripts/manques/fichiers/liste_manques.txt)  
 - [Inventaire d'entrées OFrLex](https://sharedocs.huma-num.fr/wl/?id=MZnR1ntysZNzpgTqJNlMuR69C04Ug8zY)  
@@ -267,7 +267,7 @@ Fournir le fichier des formes manquantes annotées pour recherches les variants 
 file = 'scripts/manques/fichiers/premier_alignement/v2_conj_manques_annote.tsv'
 ```
 
-Il retourne un fichier pour chaque partie du discours dont nous trouvons plusieurs lemmes (e.g. desus (lemme TL) un lieu de dessus (lemme DMF)). 
+Il retourne un fichier pour chaque partie du discours dont nous trouvons plusieurs lemmes (e.g. desus (lemme TL) au lieu de dessus (lemme DMF)). 
 
 |lemme|prox_lemme|var|
 |---|---|---|
@@ -286,13 +286,13 @@ jusque_PRE|['jesque_PRE']|
 
 Nous avons entraîné un modèle RNN pour l’annotation en POS et la lemmatisation afin de renseigner les formes manquantes (OFrLex) de manière contextualisée dans le corpus Profiterole. Cela permet de renseigner les formes inconnues pour les lexiques utilisés précédemment et, notamment, de les renseigner dans leur contexte d’apparition. Aussi, de comparer les étiquettes et les lemmes fournis par les ressources lexicales avec ceux appris par le modèle. 
 
-### Ressources et outils
+### :file_folder: Ressources et outils
 
 - [NLP Pie](https://pypi.org/project/nlp-pie/): Outil de lemmatisation et d'annotation morphosyntaxique conçu pour les langues historiques et des langues à forte variation.
 
 - [Corpus Profiterole- Tokens de chaque texte](https://sharedocs.huma-num.fr/wl/?id=kIuI6fUBNmlVZ7RLFQZGAUg4rqqdRtX1&path=data%2F_tokens%20profiterole&mode=grid): Ils font partie du découpage Train/Dev/Test (fichiers utilisés à l'entraînement, dévelopment et test du modèle). 
 
-### Lemmatisation des textes et alignement des informations morphosyntaxiques
+### :heavy_minus_sign:  Lemmatisation des textes et alignement des informations morphosyntaxiques
 
 Utiliser le [notebook](https://colab.research.google.com/drive/1_GsqMhBNCCmq5wByosM5bRCc1SEeT4tA?usp=sharing) pour charger les textes utilisés et récupérer les prédictions.
 
