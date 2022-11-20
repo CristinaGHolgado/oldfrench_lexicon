@@ -4,11 +4,14 @@ This repository contains a set of ressources used to enrich a morphosyntactic le
 It is part of the [ANR PROFITEROLE](http://ihrim.ens-lyon.fr/recherche/contrats/article/anr-profiterole-processing-old-french-instrumented-texts-for-the-representation) projet. This work has been conducted by Cristina Garcia Holgado and Mathilde Reignault.  
 
 
-## :black_square_button: Construction d'un inventaire de formes
+## :black_square_button: 1. Construction d'un inventaire de formes
 ### Description  
 Construction d'un inventaire de formes à partir du corpus gold BFMGOLDLEM et le lexique OFrLex (dev) afin d'augmenter la couverture du lexique (nouvelles entrées).  
 
 ### :file_folder: Ressources
+
+`/scripts/inventaires`  
+
 **- Corpus [BFMGOLDLEM](https://hal.archives-ouvertes.fr/hal-03265897/document) [source dans la Base de Français Médiéval](http://portal.textometrie.org/bfm/?command=metadata&path=/BFM2019)**: 21 textes (431 144 formes étiquetées et lemmatisées) en format CoNNL-U. Il inclut les informations suivantes: forme, lemme, étiquette UD, étiquette Cattex 2009, traits morphologiques (quelques formes) et source/idx.  Des nouveaux textes ont été ajoutés postérieurement. Accès au corpus: [corpus BFMGOLDLEM](https://sharedocs.huma-num.fr/wl/?id=ucuocmUCpdSxUJCgCliVlHCBEusoiIfk)  
 
 **- Lexique [OFrLex](https://aclanthology.org/2020.lrec-1.393/)**: Lexique morpho-syntaxique annoté selon les conventions Alexina. Il est composé d'entrées lexicales de différentes sources complétées par leurs fonctions syntaxiques, leurs réalisations et leurs redistributions. Le lexique est composé d'entrées intensionnelles (.ilex) et extensionnelles (.lex) :  
@@ -97,10 +100,12 @@ e.g.
 
 
 
-## :black_square_button: Lemmatisation des formes non renseignés dans OFrLex
-**Description**  
+## :black_square_button: 2. Lemmatisation des formes non renseignés dans OFrLex
+### **Description**  
 
 Après avoir constaté que de nombreuses formes du corpus PROFITEROLE (32.485 formes) étaient absentes dans le lexique OFrLex-dev, on leur a attribué des informations morphologiques en utilisant divers ressources et stratégies pour le tri des différentes informations.
+
+** Dans une étape postérieure, ces formes ont été lematisées en contexte (voir [section 5](#5.-Annotation-de-formes-manquantes-en-contexte))
 
 Stratégies:  
 **(1)** Lemmatisation avec divers outils et ressources (LGeRM, BFMGOLDLEM, FROLEX) et tri selon la priorité accordée à chaque ressource:  
@@ -120,7 +125,10 @@ meyns (forme non trouvée)   meins(variant généré)   moins(forme trouvée)   
 Pour les formes restantes qui n'ont pu être renseignées, on effectue des requêtes automatiques dans le dictionnaire ([dictionnaire anglo-normand](https://anglo-norman.net/entry/)) et on extrait les informations qui sont fournies pour cette forme.
 
 
-#### :file_folder: Ressources
+### :file_folder: Ressources  
+
+`scripts/manques`  
+
 - [LGeRM](http://stella.atilf.fr/LGeRM/plateforme/): plateforme, lexique morphologique et outil de lemmatisation pour le moyen français et le français médieval. Il privilégie les lemmes du DMF ([Dictionnaire du Moyen Français](http://zeus.atilf.fr/dmf/)). Pour accèder à l'outil et au lexique en local, [contactez l'auteur](http://stella.atilf.fr/scripts/mep.exe?CRITERE=ACCUEIL_LGERM_CONTACT;ISIS=isis_mep_lgerm.txt;ONGLET=SiteLGeRM;OO1=1;OO2=1;s=s0f2729c4)  
 - [BFMGOLDLEM](http://portal.textometrie.org/bfm/?command=metadata&path=/BFM2019)  
   
@@ -193,9 +201,9 @@ Avec ce script, nous récupérons les entrées du dictionnaire correspondant au 
 
 |form|lemma_pos|cognates|TL:|DMF:|FEW:|Gdf:|
 |---|---|---|---|---|---|---|
-chaitivíer|chaitivier (s.xii2)\__s.|\['FEW: 2/i,330a captivus', 'Gdf: 2,38b chaitivier', 'TL: 2,173 chaitivier'\]|chaitivier| captivus|chaitivier
-chelidonius|celidoine (s.xii1/3)\__s.|\['FEW: 2/i,634a chelidonia', 'DMF: chélidoine'\]||chélidoine|chelidonia|
-clamíve|clamif \(s.xii)__s.|['FEW: 2/i,730a clamare', 'TL: 2,460 clamif', 'DMF: clamif']|clamif|clamif|clamare||
+chaitivíer|chaitivier \(s.xii2\)\__s.|\['FEW: 2/i,330a captivus', 'Gdf: 2,38b chaitivier', 'TL: 2,173 chaitivier'\]|chaitivier| captivus|chaitivier
+chelidonius|celidoine \(s.xii1/3\)\__s.|\['FEW: 2/i,634a chelidonia', 'DMF: chélidoine'\]||chélidoine|chelidonia|
+clamíve|clamif \(s.xii\)\__s.|\['FEW: 2/i,730a clamare', 'TL: 2,460 clamif', 'DMF: clamif'\]|clamif|clamif|clamare||
 
 
 
@@ -203,14 +211,14 @@ clamíve|clamif \(s.xii)__s.|['FEW: 2/i,730a clamare', 'TL: 2,460 clamif', 'DMF:
 - - - -
 - - - -
 
-## :black_square_button: Recherche et extraction de préfixes
-**Description**  
+## :black_square_button: 3. Recherche et extraction de préfixes
+### **Description**  
 
 Recherche de formes préfixées dans les formes manquantes à partir d’une liste de préfixes de départ. Nous avons sélectionné les formes dans les catégories ADV, ADJ, VER et NOM. Seulement les formes avec une longueur supérieure à 3 caractères (et 3 également pour le radical) ont été retenues. Pour chaque préfixe dans la liste, nous avons collecté toutes les formes possibles commençant par ces préfixes et ensuite, nous avons cherché, à partir d'une segmentation sur le préfixe, si le radical est attesté dans le lexique. Par exemple: 
 
 [prefixe] sor - [forme trouvé] sorcroissant - [radical attesté] - croissant - [lemme associé] - croissir___750428_… - [POS] v  
 
-**Fichiers utilisés**  
+### **Ressources**  
 - [Liste prédéfinie de préfixes](https://github.com/CristinaGHolgado/oldfrench_lexicon/blob/master/scripts/prefixes/fichiers/prefixes.txt)  
 - [Liste de formes manquantes](https://github.com/CristinaGHolgado/oldfrench_lexicon/blob/master/scripts/manques/fichiers/liste_manques.txt)  
 - [Inventaire d'entrées OFrLex](https://sharedocs.huma-num.fr/wl/?id=MZnR1ntysZNzpgTqJNlMuR69C04Ug8zY)  
@@ -241,22 +249,25 @@ re|revenra|venra|venra|venir___60461__1__3|v|revenir
 
 - - - -
 
-## :black_square_button: Recherche de variants graphiques dans les lemmes OFrLex
-**Description**  
+## :black_square_button: 4. Recherche de variants graphiques dans les lemmes OFrLex
+
+### **Description**  
 Réduire le nombre de lemmes permettrait, d’une part, de réduire le nombre d’entrées (ce qui aurait pour effet de réduire l’ambiguïté lexicale et représenterait une diminution du temps de calcul de l’analyse syntaxique), et, d’autre part, de proposer une meilleure lemmatisation au terme de l’analyse syntaxique avec MetaMOF.
-#### :file_folder: Ressources
-- 
+
+### :file_folder: Ressources
+- [Fichiers .md du lexique]()
+- [Formes manquantes annotées]()
 
 ### :heavy_minus_sign: Instructions pour l'exécution du code  
 ` [distances_lemma.py] `
 
-Fournir le fichier des formes manquantes annotés pour recherches les variants avant l'ajout au lexique, ou les fichiers `.md` du  OFrLex pour identifier les variants présents dans le lexique.
+Fournir le fichier des formes manquantes annotées pour recherches les variants avant l'ajout au lexique, ou les fichiers `.md` du  OFrLex pour identifier les variants présents dans le lexique.
 
 ```
 file = 'scripts/manques/fichiers/premier_alignement/v2_conj_manques_annote.tsv'
 ```
 
-Il retourne un fichier pour chaque partie du discours dont nous trouvons plusieurs lemmes (e.g. en+le).
+Il retourne un fichier pour chaque partie du discours dont nous trouvons plusieurs lemmes (e.g. desus (lemme TL) un lieu de dessus (lemme DMF)). 
 
 |lemme|prox_lemme|var|
 |---|---|---|
@@ -271,8 +282,39 @@ entre_PRE|['estre_PRE']|
 jusque_PRE|['jesque_PRE']|
 
 
-### Résultats 
-[]
+## 5. Annotation de formes manquantes en contexte
+
+Nous avons entraîné un modèle RNN pour l’annotation en POS et la lemmatisation afin de renseigner les formes manquantes (OFrLex) de manière contextualisée dans le corpus Profiterole. Cela permet de renseigner les formes inconnues pour les lexiques utilisés précédemment et, notamment, de les renseigner dans leur contexte d’apparition. Aussi, de comparer les étiquettes et les lemmes fournis par les ressources lexicales avec ceux appris par le modèle. 
+
+### Ressources et outils
+
+- [NLP Pie](https://pypi.org/project/nlp-pie/): Outil de lemmatisation et d'annotation morphosyntaxique conçu pour les langues historiques et des langues à forte variation.
+
+- [Corpus Profiterole](): Ils font partie du découpage Train/Dev/Test (fichiers utilisés à l'entraînement, dévelopment et test du modèle).
+
+### Lemmatisation des textes et alignement des informations morphosyntaxiques
+
+Utiliser le [notebook](https://colab.research.google.com/drive/1_GsqMhBNCCmq5wByosM5bRCc1SEeT4tA?usp=sharing) pour charger les textes utilisés et récupérer les prédictions.
+
+On peut sélectionner les don´´es fournis par défault dans le dictionnaire:
+
+```
+## Download traning/dev/test data
+!pip install wget
+import wget
+
+urls= {'train_data':'https://sharedocs.huma-num.fr/wl/?id=LVfEryNatUmIOSrcv79qLt7Vh9xQcP5G&fmode=open',
+       'dev_data': 'https://sharedocs.huma-num.fr/wl/?id=NP9ubphyOqW1kHf5E6EKdq6F4USxFLC6&fmode=open',
+       'test_data': 'https://sharedocs.huma-num.fr/wl/?id=5bNmeXMzMVVOR11huaOx6aiYFVzRsRNf&fmode=open'}
+
+for k, v in urls.items():
+  print('Downloading', k)
+  wget.download(v)
+```
+
+Ou les télécharger directement dans `scripts/lemmatisation/train-dev-test-data`
+
+Pie entraînera deux modèles, où un pour les **POS** et un pour les **lemmes**. Nous pouvons les fusionner en utilisant le script `merge_lemma_pos_pie.py`. Ce script va extraire les formes manquantes annotés dans les prédictions que nous pouvons trouver dans [scripts/lemmatisation/lemmatisation_manques_Pie.tsv](https://github.com/CristinaGHolgado/oldfrench_lexicon/blob/master/scripts/lemmatisation/manques_Pie.tsv)
 
 
 - - - -
