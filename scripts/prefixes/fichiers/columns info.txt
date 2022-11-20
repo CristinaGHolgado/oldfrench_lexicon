@@ -1,0 +1,26 @@
+COLUMNS
+=======
+
+`prefixes_stemmer1.tsv`
+
+
+prefixe:
+	prefixe
+
+word:
+	forme manquante
+
+root :
+	affixe génére par segmentation du préfixe
+
+ofr_root_form:
+	affixe (forme) attesté dans ofrlex
+
+ofr_root_lemma:
+	lemme correspondat à la forme (ofr_root_form)
+
+ofr_root_pos:
+	POS correspondat à la forme (ofr_root_form)
+
+lemma_def:
+	lemme donné par la lemmatisation
