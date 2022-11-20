@@ -10,7 +10,7 @@ Construction d'un inventaire de formes à partir du corpus gold BFMGOLDLEM et le
 
 #### :file_folder: Ressources
 Corpus [BFMGOLDLEM](https://hal.archives-ouvertes.fr/hal-03265897/document): 21 textes (431 144 formes étiquetées et lemmatisées) en format CoNNL-U. Il inclut les informations suivantes: forme, lemme, étiquette UD, étiquette Cattex 2009, traits morphologiques (quelques formes) et source/idx.
-Lexique [OFrLex](https://aclanthology.org/2020.lrec-1.393/): Morphological and syntactic Old French lexicon following the alexina conventions. It's composed of lexical entries from different sources completed with their syntactic functions, realizations and redistributions. The lexicon is composed of intensional (.ilex) and extensional entries (.lex):
+Lexique [OFrLex](https://aclanthology.org/2020.lrec-1.393/): Lexique morpho-syntaxique annoté selon les conventions Alexina. Il est composé d'entrées lexicales de différentes sources complétées par leurs fonctions syntaxiques, leurs réalisations et leurs redistributions. Le lexique est composé d'entrées intensionnelles (.ilex) et extensionnelles (.lex) :
 
 *Intensional lexicon* 
 
