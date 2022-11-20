@@ -3,7 +3,7 @@ This repository contains a set of ressources used to enrich a morphosyntactic le
 
 It is part of the [ANR PROFITEROLE](http://ihrim.ens-lyon.fr/recherche/contrats/article/anr-profiterole-processing-old-french-instrumented-texts-for-the-representation) projet. This work has been conducted by Cristina Garcia Holgado and Mathilde Reignault.  
 
-
+ 
 ## :black_square_button: Construction d'un inventaire de formes
 **Description**  
 Construction d'un inventaire de formes à partir du corpus gold BFMGOLDLEM et le lexique OFrLex (dev) afin d'augmenter la couverture du lexique (nouvelles entrées).  
