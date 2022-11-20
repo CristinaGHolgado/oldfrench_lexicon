@@ -290,13 +290,13 @@ Nous avons entraîné un modèle RNN pour l’annotation en POS et la lemmatisat
 
 - [NLP Pie](https://pypi.org/project/nlp-pie/): Outil de lemmatisation et d'annotation morphosyntaxique conçu pour les langues historiques et des langues à forte variation.
 
-- [Corpus Profiterole](): Ils font partie du découpage Train/Dev/Test (fichiers utilisés à l'entraînement, dévelopment et test du modèle).
+- [Corpus Profiterole- Tokens de chaque texte](https://sharedocs.huma-num.fr/wl/?id=kIuI6fUBNmlVZ7RLFQZGAUg4rqqdRtX1&path=data%2F_tokens%20profiterole&mode=grid): Ils font partie du découpage Train/Dev/Test (fichiers utilisés à l'entraînement, dévelopment et test du modèle). 
 
 ### Lemmatisation des textes et alignement des informations morphosyntaxiques
 
 Utiliser le [notebook](https://colab.research.google.com/drive/1_GsqMhBNCCmq5wByosM5bRCc1SEeT4tA?usp=sharing) pour charger les textes utilisés et récupérer les prédictions.
 
-On peut sélectionner les don´´es fournis par défault dans le dictionnaire:
+On peut sélectionner les donées fournis par défault dans le dictionnaire:
 
 ```
 ## Download traning/dev/test data
@@ -312,10 +312,11 @@ for k, v in urls.items():
   wget.download(v)
 ```
 
-Ou les télécharger directement dans `scripts/lemmatisation/train-dev-test-data`
+Ou les télécharger directement à partir `scripts/lemmatisation/train-dev-test-data`
 
-Pie entraînera deux modèles, où un pour les **POS** et un pour les **lemmes**. Nous pouvons les fusionner en utilisant le script `merge_lemma_pos_pie.py`. Ce script va extraire les formes manquantes annotés dans les prédictions que nous pouvons trouver dans [scripts/lemmatisation/lemmatisation_manques_Pie.tsv](https://github.com/CristinaGHolgado/oldfrench_lexicon/blob/master/scripts/lemmatisation/manques_Pie.tsv)
+Pie entraînera deux modèles, où un pour les **POS** (pour chaque texte du corpus) et un pour les **lemmes** (pour chaque texte du corpus). Nous pouvons les fusionner en utilisant le script `merge_lemma_pos_pie.py`. Ce script va extraire les formes manquantes annotés dans les prédictions que nous pouvons trouver dans [scripts/lemmatisation/lemmatisation_manques_Pie.tsv](https://github.com/CristinaGHolgado/oldfrench_lexicon/blob/master/scripts/lemmatisation/manques_Pie.tsv)
 
+L'ensemble des fichiers regroupés (corpus, notebook, modèles, prédictions, résultats) peuvent être également consultes dans le [lien suivant](https://sharedocs.huma-num.fr/wl/?id=kIuI6fUBNmlVZ7RLFQZGAUg4rqqdRtX1).
 
 - - - -
 - - - -
