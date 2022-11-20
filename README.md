@@ -87,7 +87,14 @@ e.g.
 #### Fichiers en sortie
 
 [Accès aux inventaires et formes BFMGOLDLEM absentes dans OFrLex](https://sharedocs.huma-num.fr/wl/?id=MZnR1ntysZNzpgTqJNlMuR69C04Ug8zY)
+
+
+
+
 - - - -
+- - - -
+
+
 
 
 ## :black_square_button: Lemmatisation des formes non renseignés dans OFrLex
@@ -151,9 +158,9 @@ abiság | NCO | aviage | masc | LGERM | NCO | NCO
 abitation | NCO | habitation | fem | FROLEX | NCO | NCO
 abiteür | NCO | habiteur | _ | BFMGOLDLEM | NCO | NCO
 
-Il inclut la source à partir de laquelle nous avons récupéré les informations morphologiques. L'ensemble de fichiers en sortie peuvent être consultés dans [FORMES MANQUANTES ANNOTES PAR POS](https://sharedocs.huma-num.fr/wl/?id=uOuu3n86J089lcBB0sk5qASUO4iChe4R)
+Il inclut la source à partir de laquelle nous avons récupéré les informations morphologiques. L'ensemble de fichiers en sortie peuvent être consultés dans [FORMES MANQUANTES ANNOTES PAR POS](https://github.com/CristinaGHolgado/oldfrench_lexicon/tree/master/scripts/manques/fichiers/premier_alignement)
 
-Et un seul fichier avec la liste de formes qui n'ont pas été trouvées. Vous puvez le trouver dans [LISTE DE FORMES NON TROUVEES PREMIER ALIGNEMENT]()
+Et un seul fichier avec la liste de formes qui n'ont pas été trouvées. Vous puvez le trouver dans [LISTE DE FORMES NON TROUVEES PREMIER ALIGNEMENT](https://github.com/CristinaGHolgado/oldfrench_lexicon/blob/master/scripts/manques/fichiers/premier_alignement/formes%20manquantes%20premier%20alignement.csv)
 
 
 - **Génération de variants pour les formes qui n'ont pu être alignés (aucune correspondance dans les ressources)**  
@@ -175,19 +182,62 @@ malvesyve|malvesive|462
 marsopye|marsopye|463
 marsopye|marsopie|463
 
-Ensuite, on refait l'alignement avec le script précedent (`[mode = "variants"]`).  Pareillement, il retourne les formes annotées et une liste avec les formes qui n'ont pas été trouvées avec cette stratégie.
+Ensuite, on refait l'alignement avec le script précedent (`[mode = "variants"]`).  Pareillement, il retourne les formes annotées et une liste avec les formes qui n'ont pas été trouvées avec cette stratégie. [LISTE DE FORMES NON TROUVEES DEUXIEME ALIGNEMENT](https://github.com/CristinaGHolgado/oldfrench_lexicon/blob/master/scripts/manques/fichiers/deuxieme_alignement/missing_forms_from_variants.csv), [FORMES MANQUANTES ANNOTES PAR POS DEUXIEME ALIGNEMENT](https://github.com/CristinaGHolgado/oldfrench_lexicon/tree/master/scripts/manques/fichiers/deuxieme_alignement)
 
 
-- **Requêtes automatiques dans des dictionnaires externes**
-` [] `
+- **Requêtes automatiques dans des dictionnaires externes**  
+  
+` [request_and.py] `  
+  
+Avec ce script, nous récupérons les entrées du dictionnaire correspondant au reste des formes manquantes en précisant le chemin vers les dernières formes manquantes. Pour éviter les limites de requête, nous pouvons extraire les entrées par chunks de 100 formes `[from_="0"]`, `[up_to= "500"]`. Structure des fichiers en sortie:
+
+|form|lemma_pos|cognates|TL:|DMF:|FEW:|Gdf:|
+|---|---|---|---|---|---|---|
+chaitivíer|chaitivier (s.xii2)\__s.|\['FEW: 2/i,330a captivus', 'Gdf: 2,38b chaitivier', 'TL: 2,173 chaitivier'\]|chaitivier| captivus|chaitivier
+chelidonius|celidoine (s.xii1/3)\__s.|\['FEW: 2/i,634a chelidonia', 'DMF: chélidoine'\]||chélidoine|chelidonia|
+clamíve|clamif \(s.xii)__s.|['FEW: 2/i,730a clamare', 'TL: 2,460 clamif', 'DMF: clamif']|clamif|clamif|clamare||
 
 
+
+
+- - - -
 - - - -
 
 ## :black_square_button: Recherche et extraction de préfixes
 **Description**  
-### :heavy_minus_sign: Instructions pour l'exécution du code
-` [] `
+
+Recherche de formes préfixées dans les formes manquantes à partir d’une liste de préfixes de départ. Nous avons sélectionné les formes dans les catégories ADV, ADJ, VER et NOM. Seulement les formes avec une longueur supérieure à 3 caractères (et 3 également pour le radical) ont été retenues. Pour chaque préfixe dans la liste, nous avons collecté toutes les formes possibles commençant par ces préfixes et ensuite, nous avons cherché, à partir d'une segmentation sur le préfixe, si le radical est attesté dans le lexique. Par exemple: 
+
+[prefixe] sor - [forme trouvé] sorcroissant - [radical attesté] - croissant - [lemme associé] - croissir___750428_… - [POS] v  
+
+**Fichiers utilisés**  
+- [Liste prédéfinie de préfixes](https://github.com/CristinaGHolgado/oldfrench_lexicon/blob/master/scripts/prefixes/fichiers/prefixes.txt)  
+- [Liste de formes manquantes](https://github.com/CristinaGHolgado/oldfrench_lexicon/blob/master/scripts/manques/fichiers/liste_manques.txt)  
+- [Inventaire d'entrées OFrLex](https://sharedocs.huma-num.fr/wl/?id=MZnR1ntysZNzpgTqJNlMuR69C04Ug8zY)  
+
+### :heavy_minus_sign: Instructions pour l'exécution du code  
+` [find_prefixes] `  
+
+Préiser les fichiers dans:  
+
+```
+folder = "enrich_ofrlexdev\\data\\source_data\\"
+manques_f = folder + "liste_manques.txt"
+ofrlex = folder + "inventaire_ofrlex.tsv"
+prefixes = folder + "prefixes.txt"
+```
+
+|prefixe|word|root|ofr_root_form|ofr_root_lemma|ofr_root_pos|lemma_def|
+|---|---|---|---|---|---|---|
+contre|contredeïst|deïst|deïst|dire___751970__1__1|v|_
+contre|contrediroient|diroient|diroient|dire___751970__1__1|v|contredire
+des|deshonnestement|honnestement|honnestement|onestement___9076__1|adv|déshonnêtement
+des|deshonneur|honneur|honneur|honneur___99999__1|nc|déshonneur
+re|revenons|venons|venons|venir___60461__1__3|v|revenir
+re|revenra|venra|venra|venir___60461__1__3|v|revenir
+
+
+[Accéder à la liste de possibles formes préfixées](https://github.com/CristinaGHolgado/oldfrench_lexicon/blob/master/scripts/prefixes/fichiers/prefixes_stemmer1.csv)
 
 - - - -
 
@@ -205,8 +255,5 @@ Réduire le nombre de lemmes permettrait, d’une part, de réduire le nombre d�
 
 
 - - - -
-
-## :white_square_button: Statistiques sur les nouvelles entrées ajoutées dans OFrLex
-[]
-#### Fichiers en sortie
-[]
+- - - -
+- - - -
