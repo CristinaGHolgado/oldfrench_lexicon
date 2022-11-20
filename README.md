@@ -3,14 +3,14 @@ This repository contains a set of ressources used to enrich a morphosyntactic le
 
 It is part of the [ANR PROFITEROLE](http://ihrim.ens-lyon.fr/recherche/contrats/article/anr-profiterole-processing-old-french-instrumented-texts-for-the-representation) projet. This work has been conducted by Cristina Garcia Holgado and Mathilde Reignault.  
 
- 
+
 ## :black_square_button: Construction d'un inventaire de formes
 **Description**  
 Construction d'un inventaire de formes à partir du corpus gold BFMGOLDLEM et le lexique OFrLex (dev) afin d'augmenter la couverture du lexique (nouvelles entrées).  
 
 #### :file_folder: Ressources
-Corpus [BFMGOLDLEM](https://hal.archives-ouvertes.fr/hal-03265897/document): 21 textes (431 144 formes étiquetées et lemmatisées) en format CoNNL-U. Il inclut les informations suivantes: forme, lemme, étiquette UD, étiquette Cattex 2009, traits morphologiques (quelques formes) et source/idx.
-Lexique [OFrLex](https://aclanthology.org/2020.lrec-1.393/): Lexique morpho-syntaxique annoté selon les conventions Alexina. Il est composé d'entrées lexicales de différentes sources complétées par leurs fonctions syntaxiques, leurs réalisations et leurs redistributions. Le lexique est composé d'entrées intensionnelles (.ilex) et extensionnelles (.lex) :
+**- Corpus [BFMGOLDLEM](https://hal.archives-ouvertes.fr/hal-03265897/document)(source dans la Base de Français Médiéval[http://portal.textometrie.org/bfm/?command=metadata&path=/BFM2019](http://portal.textometrie.org/bfm/?command=metadata&path=/BFM2019))**: 21 textes (431 144 formes étiquetées et lemmatisées) en format CoNNL-U. Il inclut les informations suivantes: forme, lemme, étiquette UD, étiquette Cattex 2009, traits morphologiques (quelques formes) et source/idx.  
+**- Lexique [OFrLex](https://aclanthology.org/2020.lrec-1.393/)**: Lexique morpho-syntaxique annoté selon les conventions Alexina. Il est composé d'entrées lexicales de différentes sources complétées par leurs fonctions syntaxiques, leurs réalisations et leurs redistributions. Le lexique est composé d'entrées intensionnelles (.ilex) et extensionnelles (.lex) :  
 
 *Intensional lexicon* 
 
@@ -24,7 +24,7 @@ aamer___746696__1|v-er|100;Lemma;v;<Suj:cln\\sn,Obj:(cla\\sn)>;upos=VERB,cat=v;%
 |---|---|---|---|---|---|---|
 aamer|100|v|\[pred="aamer___746696__1__1<Suj:cln\\sn,Obj:(cla|sn)>",@pers,cat=v,upos=VERB,@inf.std\]|aamer___746696__1__1|Default|inf.std|%actif|v-er  
 
-[OfrLex](https://hal.inria.fr/inria-00521242/document), [Alexina](https://aclanthology.org/2020.lrec-1.393.pdf)  
+[OFrLex](https://hal.inria.fr/inria-00521242/document), [Alexina](https://aclanthology.org/2020.lrec-1.393.pdf)  
 
 ### :heavy_minus_sign: Instructions pour l'exécution du code
 **Inventoire**
@@ -42,7 +42,31 @@ bfm_inventory = "data\\profiterole_bfmgold_inventoire.tsv"
 ofrlex_inventory = "data\\ofrlexdev_inventory.tsv
 ```
 
-#### Fichier en sortie
+On peut fusionner les entrées BFM-OFrLex par forme-lemme (fl), forme-pos(fp) et forme-lemme-pos(flp).  
+```
+merge_by_col = 'flp'
+```
+
+On obtient les formes en commun et/ou absentes (formes BFMGOLDLEM non renseignées dans OFrLex):  
+
+|forme|lemme|UPOS|traits ofrlex|||||source ofrlex|
+|---|---|---|---|---|---|---|---|---|
+Abbeville*|Abeville*|_ | _ |Abeville|NOMpro | _ | _ | _ |
+Abbeye___54353__1|Abbeye|PROPN  | \[pred="Abbeye___54353__1<Suj\:(sn)>",upos=PROPN,cat=np\] | _ | _ | _ |0.0 | ..\ofrlex-dev\PROPN.lex  
+  
+Formes BFMGOLD absentes dans OFrLex(*) triées par ordre alphabétique du lemme, ce qui permet de gérer (vérification manuelle) plus facilement les cas où on trouve variants dans les lemmes:  
+e.g. 
+```
+[...] Abbeville NOMpro  
+[...] Abeville NOMpro  
+[...] Abel NOMpro  
+[...] Abels NOMpro  
+[...] Abevile NOMpro  
+...  
+```
+
+
+#### Fichiers en sortie
 *BFMGOLDLEM*
 
 |  fpl | forme  | lemme  |  pos (cattex) | feats_bfm  |  lemma_src |  file_src_bfm | occ_bfm |  n |
@@ -59,24 +83,47 @@ ofrlex_inventory = "data\\ofrlexdev_inventory.tsv
  abaant | adj | [pred="abeant___211__1<Suj:cln|sn>",@pers,cat=adj,upos=ADJ] | abeant___211__1 | ..\ofrlex-dev\ADJ.lex | abeant | 0 | ADJ | 0 
  abaeux | adj | [pred="abaeuz___204__1<Suj:cln|sn>",@pers,cat=adj,upos=ADJ] | abaeuz___204__1 | ..\ofrlex-dev\ADJ.lex | abaeuz | 0 | ADJ | 0 
 
+*Fusion d'entrées*
+
+
+[Accès aux inventaires et formes BFMGOLDLEM absentes dans OFrLex](https://sharedocs.huma-num.fr/wl/?id=MZnR1ntysZNzpgTqJNlMuR69C04Ug8zY)
 - - - -
 
 
 
 ## :black_square_button: Lemmatisation des formes non renseignés dans OFrLex
 **Description**  
-Ajout de lemmes et d'informations morphosyntaxiques pour les entrées manquantes du lexique
+
+Après avoir constaté que de nombreuses formes du corpus PROFITEROLE (32.485 formes) étaient absentes dans le lexique OFrLex-dev, on leur a attribué des informations morphologiques en utilisant divers ressources et stratégies pour le tri des différentes informations.
+
+Stratégies:  
+**(1)** Lemmatisation avec divers outils et ressources (LGeRM, BFMGOLDLEM, FROLEX) et tri selon la priorité accordée à chaque ressource:  
+
+1. BFMGOLDLEM (inventaire): priorité à un corpus gold pour le français médiéval  
+2. LGeRM: puis, propositions de la lemmatisation par LGeRM, mais l'outil est notamment conçu pour le Moyen Français  
+3. FROLEX: lexique qui fournit uniquement lemme/POS  
+
+**(2)** Génération de variants graphiques possibles pour les formes qui n'ont pu être alignés (match)  
+Cette strátegie permet de rapprocher les formes qui n'ont pas été trouvées pendant l'étape précedente.  
+E.g.:
+```
+meyns (forme non trouvée)   meins(variant généré)   moins(forme trouvée)    ADV int_quantif quantif
+````
+
+**(3)** Requêtes automatiques dans un dictionnaire externe  
+Pour les formes restantes qui n'ont pu être renseignées, on effectue des requêtes automatiques dans le dictionnaire ([dictionnaire anglo-normand](https://anglo-norman.net/entry/)) et on extrait les informations qui sont fournies pour cette forme.
+
 
 #### :file_folder: Ressources
-LGeRM [desc, src, utilisation]  
-BFMGOLDLEM []  
-FROLEX [descr, src]  
-[frolex-03.tsv](https://github.com/sheiden/Medieval-French-Language-Toolkit/releases/download/v3.0/Medieval-French-Language-Toolkit.3.0.zip) dernière version (2020)
+- [LGeRM](http://stella.atilf.fr/LGeRM/plateforme/): plateforme, lexique morphologique et outil de lemmatisation pour le moyen français et le français médieval. Il privilégie les lemmes du DMF ([Dictionnaire du Moyen Français](http://zeus.atilf.fr/dmf/))  
+- [BFMGOLDLEM](http://portal.textometrie.org/bfm/?command=metadata&path=/BFM2019)  
+  
+- [FROLEX](https://groupes.renater.fr/wiki/palafra/public/lexique_fro): lexique qui rassemble des formes en français médiéval provenant de diverses sources. Il fournit leur étiquette Cattex ([Cattex 2009](http://bfm.ens-lyon.fr/IMG/pdf/Cattex2009_manuel_2.0.pdf)). Ce lexique est disponible dans [frolex-03.tsv](https://github.com/sheiden/Medieval-French-Language-Toolkit/releases/download/v3.0/Medieval-French-Language-Toolkit.3.0.zip) dernière version (2020)
 
 ### :heavy_minus_sign: Instructions pour l'exécution du code
-- Lemmatisation et alignement d’entrées
+- Lemmatisation et alignement d’entrées dans les différents resources
 ` [] `
-- Génération de variants pour les formes qui n'ont pu être alignés (graphie)
+- Génération de variants pour les formes qui n'ont pu être alignés (aucune correspondance dans les ressources)
 ` [] `
 - Requêtes automatiques dans des dictionnaires externes
 ` [] `
