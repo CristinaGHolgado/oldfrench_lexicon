@@ -9,7 +9,7 @@ It is part of the [ANR PROFITEROLE](http://ihrim.ens-lyon.fr/recherche/contrats/
 Construction d'un inventaire de formes à partir du corpus gold BFMGOLDLEM et le lexique OFrLex (dev) afin d'augmenter la couverture du lexique (nouvelles entrées).  
 
 ### :file_folder: Ressources
-**- Corpus [BFMGOLDLEM](https://hal.archives-ouvertes.fr/hal-03265897/document) [source dans la Base de Français Médiéval](http://portal.textometrie.org/bfm/?command=metadata&path=/BFM2019]**: 21 textes (431 144 formes étiquetées et lemmatisées) en format CoNNL-U. Il inclut les informations suivantes: forme, lemme, étiquette UD, étiquette Cattex 2009, traits morphologiques (quelques formes) et source/idx.  Des nouveaux textes ont été ajoutés postérieurement. Accès au corpus: [corpus BFMGOLDLEM](https://sharedocs.huma-num.fr/wl/?id=ucuocmUCpdSxUJCgCliVlHCBEusoiIfk)  
+**- Corpus [BFMGOLDLEM](https://hal.archives-ouvertes.fr/hal-03265897/document) [source dans la Base de Français Médiéval](http://portal.textometrie.org/bfm/?command=metadata&path=/BFM2019)**: 21 textes (431 144 formes étiquetées et lemmatisées) en format CoNNL-U. Il inclut les informations suivantes: forme, lemme, étiquette UD, étiquette Cattex 2009, traits morphologiques (quelques formes) et source/idx.  Des nouveaux textes ont été ajoutés postérieurement. Accès au corpus: [corpus BFMGOLDLEM](https://sharedocs.huma-num.fr/wl/?id=ucuocmUCpdSxUJCgCliVlHCBEusoiIfk)  
 
 **- Lexique [OFrLex](https://aclanthology.org/2020.lrec-1.393/)**: Lexique morpho-syntaxique annoté selon les conventions Alexina. Il est composé d'entrées lexicales de différentes sources complétées par leurs fonctions syntaxiques, leurs réalisations et leurs redistributions. Le lexique est composé d'entrées intensionnelles (.ilex) et extensionnelles (.lex) :  
 
@@ -216,7 +216,7 @@ Recherche de formes préfixées dans les formes manquantes à partir d’une lis
 - [Inventaire d'entrées OFrLex](https://sharedocs.huma-num.fr/wl/?id=MZnR1ntysZNzpgTqJNlMuR69C04Ug8zY)  
 
 ### :heavy_minus_sign: Instructions pour l'exécution du code  
-` [find_prefixes] `  
+` [find_prefixes.py] `  
 
 Préiser les fichiers dans:  
 
@@ -245,10 +245,31 @@ re|revenra|venra|venra|venir___60461__1__3|v|revenir
 **Description**  
 Réduire le nombre de lemmes permettrait, d’une part, de réduire le nombre d’entrées (ce qui aurait pour effet de réduire l’ambiguïté lexicale et représenterait une diminution du temps de calcul de l’analyse syntaxique), et, d’autre part, de proposer une meilleure lemmatisation au terme de l’analyse syntaxique avec MetaMOF.
 #### :file_folder: Ressources
-[]
+- 
 
-### :heavy_minus_sign: Instructions pour l'exécution du code
-` [] `
+### :heavy_minus_sign: Instructions pour l'exécution du code  
+` [distances_lemma.py] `
+
+Fournir le fichier des formes manquantes annotés pour recherches les variants avant l'ajout au lexique, ou les fichiers `.md` du  OFrLex pour identifier les variants présents dans le lexique.
+
+```
+file = 'scripts/manques/fichiers/premier_alignement/v2_conj_manques_annote.tsv'
+```
+
+Il retourne un fichier pour chaque partie du discours dont nous trouvons plusieurs lemmes (e.g. en+le).
+
+|lemme|prox_lemme|var|
+|---|---|---|
+après_PRE|['apres_PRE']|    
+delez_PRE|['dalez_PRE']| 
+desor_PRE|['desoz_PRE']| 
+dessous_PRE|['dessus_PRE']| 
+desus_PRE|['dessus_PRE']|
+deçà_PRE|['delà_PRE']| 
+en+le_PRE|['en.le_PRE']| 
+entre_PRE|['estre_PRE']| 
+jusque_PRE|['jesque_PRE']|
+
 
 ### Résultats 
 []
