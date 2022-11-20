@@ -5,11 +5,11 @@ It is part of the [ANR PROFITEROLE](http://ihrim.ens-lyon.fr/recherche/contrats/
 
 
 ## :black_square_button: Construction d'un inventaire de formes
-**Description**  
+### Description  
 Construction d'un inventaire de formes à partir du corpus gold BFMGOLDLEM et le lexique OFrLex (dev) afin d'augmenter la couverture du lexique (nouvelles entrées).  
 
-#### :file_folder: Ressources
-**- Corpus [BFMGOLDLEM](https://hal.archives-ouvertes.fr/hal-03265897/document) [source dans la Base de Français Médiéval](http://portal.textometrie.org/bfm/?command=metadata&path=/BFM2019](http://portal.textometrie.org/bfm/?command=metadata&path=/BFM2019)**: 21 textes (431 144 formes étiquetées et lemmatisées) en format CoNNL-U. Il inclut les informations suivantes: forme, lemme, étiquette UD, étiquette Cattex 2009, traits morphologiques (quelques formes) et source/idx.  Des nouveaux textes ont été ajoutés postérieurement. Accès au corpus: [corpus BFMGOLDLEM](https://sharedocs.huma-num.fr/wl/?id=ucuocmUCpdSxUJCgCliVlHCBEusoiIfk)  
+### :file_folder: Ressources
+**- Corpus [BFMGOLDLEM](https://hal.archives-ouvertes.fr/hal-03265897/document) [source dans la Base de Français Médiéval](http://portal.textometrie.org/bfm/?command=metadata&path=/BFM2019]**: 21 textes (431 144 formes étiquetées et lemmatisées) en format CoNNL-U. Il inclut les informations suivantes: forme, lemme, étiquette UD, étiquette Cattex 2009, traits morphologiques (quelques formes) et source/idx.  Des nouveaux textes ont été ajoutés postérieurement. Accès au corpus: [corpus BFMGOLDLEM](https://sharedocs.huma-num.fr/wl/?id=ucuocmUCpdSxUJCgCliVlHCBEusoiIfk)  
 
 **- Lexique [OFrLex](https://aclanthology.org/2020.lrec-1.393/)**: Lexique morpho-syntaxique annoté selon les conventions Alexina. Il est composé d'entrées lexicales de différentes sources complétées par leurs fonctions syntaxiques, leurs réalisations et leurs redistributions. Le lexique est composé d'entrées intensionnelles (.ilex) et extensionnelles (.lex) :  
 
@@ -30,12 +30,28 @@ Accès au lexique (dernière version) [OFrLex dev](https://gitlab.inria.fr/alman
 Informations plus détaillées à propos des ressources: [OFrLex](https://hal.inria.fr/inria-00521242/document), [Alexina](https://aclanthology.org/2020.lrec-1.393.pdf)  
 
 ### :heavy_minus_sign: Instructions pour l'exécution du code
-**Inventoire**
+**Inventoire**  
 *inventory_builder_bfm.py*  
-` [-in CORPUS -out FILENAME -ignore IGNORE FILES] `
+` [-in CORPUS -out FILENAME -ignore IGNORE FILES] `  
+
+Structure du fichier en sortie:  
+
+|  fpl | forme  | lemme  |  pos (cattex) | feats_bfm  |  lemma_src |  file_src_bfm | occ_bfm |  n |
+|---|---|---|---|---|---|---|---|---|
+ confondemant_confondement_noun | confondemant | confondement | NOMcom | _ | DECT | CligesKu | 1 | _ 
+ confondent_confondre_verb | confondent | confondre | VERcjg | VerbForm=Fin | DECT | CligesKu | 2 | _ 
+ confondoit_confondre_verb | confondoit | confondre | VERcjg | VerbForm=Fin | DMF | SGenPr1 | 1 | _ 
 
 *inventory_builder_ofr.py*  
-` [-in CORPUS -out FILENAME -ignore IGNORE FILES -cattex CATTEX IF AVALIABLE -fiter_pos IGNORE POS] `
+` [-in CORPUS -out FILENAME -ignore IGNORE FILES -cattex CATTEX IF AVALIABLE -fiter_pos IGNORE POS] `  
+
+Structure du fichier en sortie:  
+
+|form|pos|traits|lemme|file_src|raw_lemme|inconnu|upos|no_upos|
+|---|---|---|---|---|---|---|---|---|
+ aates | adj | [pred="aate___203__1<Suj:cln|sn>",@pers,cat=adj,upos=ADJ,@sg.nom.masc] | aate___203__1 | ..\ofrlex-dev\ADJ.lex | aate | 0 | ADJ | 0 
+ abaant | adj | [pred="abeant___211__1<Suj:cln|sn>",@pers,cat=adj,upos=ADJ] | abeant___211__1 | ..\ofrlex-dev\ADJ.lex | abeant | 0 | ADJ | 0 
+ abaeux | adj | [pred="abaeuz___204__1<Suj:cln|sn>",@pers,cat=adj,upos=ADJ] | abaeuz___204__1 | ..\ofrlex-dev\ADJ.lex | abaeuz | 0 | ADJ | 0 
 
 **Fusion d'entrées**  
 *scripts/map_ofrlex_bfmgoldlem.ipynb*  
@@ -68,30 +84,10 @@ e.g.
 ...  
 ```
 
-
 #### Fichiers en sortie
-*BFMGOLDLEM*
-
-|  fpl | forme  | lemme  |  pos (cattex) | feats_bfm  |  lemma_src |  file_src_bfm | occ_bfm |  n |
-|---|---|---|---|---|---|---|---|---|
- confondemant_confondement_noun | confondemant | confondement | NOMcom | _ | DECT | CligesKu | 1 | _ 
- confondent_confondre_verb | confondent | confondre | VERcjg | VerbForm=Fin | DECT | CligesKu | 2 | _ 
- confondoit_confondre_verb | confondoit | confondre | VERcjg | VerbForm=Fin | DMF | SGenPr1 | 1 | _ 
-
-*OFrLex* (.lex)
-
-|form|pos|traits|lemme|file_src|raw_lemme|inconnu|upos|no_upos|
-|---|---|---|---|---|---|---|---|---|
- aates | adj | [pred="aate___203__1<Suj:cln|sn>",@pers,cat=adj,upos=ADJ,@sg.nom.masc] | aate___203__1 | ..\ofrlex-dev\ADJ.lex | aate | 0 | ADJ | 0 
- abaant | adj | [pred="abeant___211__1<Suj:cln|sn>",@pers,cat=adj,upos=ADJ] | abeant___211__1 | ..\ofrlex-dev\ADJ.lex | abeant | 0 | ADJ | 0 
- abaeux | adj | [pred="abaeuz___204__1<Suj:cln|sn>",@pers,cat=adj,upos=ADJ] | abaeuz___204__1 | ..\ofrlex-dev\ADJ.lex | abaeuz | 0 | ADJ | 0 
-
-*Fusion d'entrées*
-
 
 [Accès aux inventaires et formes BFMGOLDLEM absentes dans OFrLex](https://sharedocs.huma-num.fr/wl/?id=MZnR1ntysZNzpgTqJNlMuR69C04Ug8zY)
 - - - -
-
 
 
 ## :black_square_button: Lemmatisation des formes non renseignés dans OFrLex
@@ -162,7 +158,7 @@ Et un seul fichier avec la liste de formes qui n'ont pas été trouvées. Vous p
 
 - **Génération de variants pour les formes qui n'ont pu être alignés (aucune correspondance dans les ressources)**  
 
-On génére les variants avec ` [generate_variants.py] `  en utilisant la liste de formes qui n'ont pas été trouvées à partir la commande:
+On génére les variants avec ` [generate_variants.py] `  en utilisant la liste de formes qui n'ont pas été trouvées à partir la commande suivante:
 
 ```
 -in LISTE_FORMES  -sep \t -out SAVE_TO_PATH

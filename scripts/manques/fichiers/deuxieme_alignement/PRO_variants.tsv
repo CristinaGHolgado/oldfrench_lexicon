@@ -1,0 +1,89 @@
+form	def_pos	def_lemma	def_morph	source	UPOS	pos
+aútel	PRO	autel	_	FROLEX	PRO	PRO
+aútre	PRO	autre	_	FROLEX	PRO	PRO
+aútél	PRO	autel	_	FROLEX	PRO	PRO
+celúi	PRO	celui/cil	_	FROLEX	PRO	PRO
+chascúne	PRO	chacun	_	BFMGOLDLEM	PRO	PRO
+c´	PROdem	que	per	FROLEX	PRO	PRO
+g´	PRO	je	_	BFMGOLDLEM	PRO	PRO
+j´	PRO	je	_	BFMGOLDLEM	PRO	PRO
+l´	PROper	li	per	FROLEX	PRO	PRO
+lú	PRO	lui	per	FROLEX	PRO	PRO
+lúi	PRO	loi	_	FROLEX	PRO	PRO
+lúí	PRO	loi	_	FROLEX	PRO	PRO
+m´	PRO	mon	per	FROLEX	PRO	PRO
+nú	PRO	nous	_	FROLEX	PRO	PRO
+nús	PROind	nul	per	FROLEX	PRO	PRO
+oút	PRO	où	_	FROLEX	PRO	PRO
+s´	PRO	son	_	FROLEX	PRO	PRO
+súe	PRO	suen	_	FROLEX	PRO	PRO
+súen	PRO	sien	_	FROLEX	PRO	PRO
+trestúte	PRO	trestot	_	FROLEX	PRO	PRO
+tú	PROper	toi	per	FROLEX	PRO	PRO
+túe	PRO	tien	_	FROLEX	PRO	PRO
+tút	PRO	proind	_	FROLEX	PRO	PRO
+túte	PRO	tot	_	FROLEX	PRO	PRO
+tútes	PRO	tot	_	FROLEX	PRO	PRO
+túz	PRO	tot	_	FROLEX	PRO	PRO
+vús	PRO	vous	_	BFMGOLDLEM	PRO	PRO
+óút	PRO	où	_	FROLEX	PRO	PRO
+úm	PRO	on	_	BFMGOLDLEM	PRO	PRO
+úre	PRO	ure	_	FROLEX	PRO	PRO
+chascune	PRO	chascun	_	BFMGOLDLEM	PRO	
+nus	PROind	nos	per	FROLEX	PRO	
+nus	PRO	nul	per	FROLEX	PRO	
+nus	PRO	nos	per	FROLEX	PRO	
+nus	PROper	nul	per	FROLEX	PRO	
+nus	PROper	nos	per	FROLEX	PRO	
+nu	PRO	nul	_	FROLEX	PRO	
+nu	PRO	nous	per	FROLEX	PRO	
+nu	PROind	nul	per	FROLEX	PRO	
+nu	PROper	nous	per	FROLEX	PRO	
+nu	PROper	nul	per	FROLEX	PRO	
+nus	PRO	nos	_	FROLEX	PRO	
+nus	PRO	nul	_	FROLEX	PRO	
+um	PRO	on	_	FROLEX	PRO	
+um	PROind	on	per	FROLEX	PRO	
+tut	PRO	tot	_	FROLEX	PRO	
+tut	PRO	tout	_	FROLEX	PRO	
+tut	PRO	tüer	_	FROLEX	PRO	
+vus	PROper	vos	per	FROLEX	PRO	
+vus	PRO	vos	_	FROLEX	PRO	
+sue	PRO	süer	_	FROLEX	PRO	
+s'	PROper	son	per	FROLEX	PRO	
+s'	PRO	son	per	FROLEX	PRO	
+s'	PROpos	son	per	FROLEX	PRO	
+tu	PROind	toi	per	FROLEX	PRO	
+tu	PRO	toi	_	FROLEX	PRO	
+tue	PRO	tuen	_	FROLEX	PRO	
+autre	PRO	autre	ind	FROLEX	PRO	
+autre	PROind	autre	ind	FROLEX	PRO	
+c'	PROrel	que	per	FROLEX	PRO	
+c'	PROint|ADVgen	que	per	FROLEX	PRO	
+c'	PROint	que	per	FROLEX	PRO	
+c'	PRO	que	_	FROLEX	PRO	
+lu	PROper	le	per	FROLEX	PRO	
+lu	PROper	lui	per	FROLEX	PRO	
+lui	PRO	lui	_	FROLEX	PRO	
+lu	PRO	le	per	FROLEX	PRO	
+lui	PROper	loi	per	FROLEX	PRO	
+lui	PROper	lui	per	FROLEX	PRO	
+lui	PRO	loi	per	FROLEX	PRO	
+lui	PROind	lui	per	FROLEX	PRO	
+lui	PRO	lui	_	FROLEX	PRO	
+lu	PRO	lui	_	FROLEX	PRO	
+l'	PROper	lui	per	FROLEX	PRO	
+l'	PRO	li	per	FROLEX	PRO	
+l'	PROind	lui	per	FROLEX	PRO	
+l'	PRO	li	_	FROLEX	PRO	
+l'	PRO	lui	_	FROLEX	PRO	
+lu	PRO	le	_	FROLEX	PRO	
+lui	PROper	loi	per	FROLEX	PRO	
+m'	PRO	me	per	FROLEX	PRO	
+m'	PROper	mon	per	FROLEX	PRO	
+lui	PROper	lui	per	FROLEX	PRO	
+lui	PRO	loi	per	FROLEX	PRO	
+lui	PROind	lui	per	FROLEX	PRO	
+m'	PRO	me	_	FROLEX	PRO	
+m'	PRO	mon	_	FROLEX	PRO	
+m'	PROper	me	per	FROLEX	PRO	

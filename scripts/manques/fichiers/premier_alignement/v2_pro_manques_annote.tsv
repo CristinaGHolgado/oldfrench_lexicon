@@ -1,0 +1,188 @@
+form	lemma_def	pos	type	src_mot
+esquanz	alquant	PROind	indefini	
+ges	je.il	PROper.PROper		
+iax	eux	PROper	personnel	
+jel	je.il	PROper.PROper		
+jel	je.le	PROper.PROper		
+jes	je.il	PROper.PROper		
+jes	je.le	PROper.PROper		
+jol	je.le	PROper.PROper		
+kil	qui.le	PROrel.PROper		
+kil	qui.le	PROint.PROper		
+kil	qui	PROrel	relatif	
+kis	qui.le	PROrel.PROper		
+kis	qui.se	PROrel.PROper		
+quals	quel	PROrel	relatif	
+quun	quant	PROind	indefini	
+·s	se	PROper	personnel	
+as	il	PRO		ás
+altres	autre	PRO		áltres
+auchunes	aucun	PRO		auchunes
+vus	vous	PRO		vús
+autre	autre	PRO		aútre
+vus	vos	PRO		vús
+to	tu	PRO		to
+acuns	aucun	PRO		acuns
+voz	vous	PRO	possesif	vóz
+voz	vos	PRO	possesif	vóz
+voz	vous	PRO		vóz
+voz	vos	PRO		vóz
+s'	son	PRO	possesif	s’
+s'	soi	PRO	possesif	s’
+s'	si	PRO	possesif	s’
+s'	se	PRO	possesif	s’
+s'	son	PRO		s’
+tu	tu	PRO		tú
+toi	toi	PRO		toí
+toi	tu	PRO		toí
+al	ele	PRO		ál
+aulz	lui	PRO		aulz
+aultrez	autre	PRO		aultrez
+aulcungs	aucun	PRO		aulcungs
+aucunz	aucun	PRO		aucunz
+aucunnes	aucun	PRO		aucunnes
+aucunes	aucun	PRO		aucunnes
+s'	soi	PRO		s’
+aucunez	aucun	PRO		aucunez
+s'	si	PRO		s’
+auchuns	aucun	PRO		auchuns
+s'	se	PRO		s’
+auchunez	aucun	PRO		auchunez
+tai	tu	PRO		tay
+toi	taire	PRO		toí
+l'	li	PRO		l’
+·il	il	PRO		·il
+mei	moi	PRO		meí
+lié	liier	PRO		lyé
+lie	lui	PRO		lyé
+el	il	PRO		él
+lie	ele	PRO		lyé
+nus	nul	PRO		nús
+el	en	PRO		él
+els	elle	PRO		éls
+jol	il	PRO		jól
+el	elle	PRO		él
+nus	nous	PRO		nús
+nus	nos	PRO		nús
+el	el	PRO		él
+eux	lui	PRO		eüx
+els	eux	PRO		éls
+eus	eux	PRO		eüx
+els	lui	PRO		éls
+lui	loi	PRO		luí
+lui	lui	PRO		luí
+lui	lui	PRO		lúi
+lui	loi	PRO		lúi
+lui	il	PRO		lúi
+lui	il	PRO		lúí
+ja	moi	PRO		já
+eil	elle	PRO		eil
+lui	lui	PRO		lúí
+eux	ele	PRO		eüx
+eus	lui	PRO		eüx
+eux	eux	PRO		eüx
+lu	lui	PRO		lú
+lu	le	PRO		lú
+lui	loi	PRO		lúí
+lez	ele	PRO		léz
+lui	il	PRO		luí
+m'	je	PRO		m’
+lei	loi	PRO		ley
+ele	ele	PRO		éle
+ele	elle	PRO		éle
+ele	il	PRO		éle
+m'	me	PRO		m’
+m'	mon	PRO		m’
+lei	elle	PRO		ley
+nu	nous	PRO		nú
+lye	lui	PRO		lyé
+m'	je	PRO	possesif	m’
+m'	mon	PRO	possesif	m’
+l'	il	PRO		l’
+l'	le	PRO		l’
+elez	elle	PRO		ellez
+m'	me	PRO	possesif	m’
+els	lui	PROind	indefini	éls
+acuns	aucun	PROind	indefini	acuns
+altres	autre	PROind	indefini	áltres
+els	eux	PROind	indefini	éls
+aulcungs	aucun	PROind	indefini	aulcungs
+els	elle	PROind	indefini	éls
+el	il	PROind	indefini	él
+autre	autre	PROind	indefini	aútre
+aucunes	aucun	PROind	indefini	aucunnes
+aucunz	aucun	PROind	indefini	aucunz
+auchunes	aucun	PROind	indefini	auchunes
+el	el	PROind	indefini	él
+aucunez	aucun	PROind	indefini	aucunez
+el	elle	PROind	indefini	él
+auchuns	aucun	PROind	indefini	auchuns
+el	en	PROind	indefini	él
+aucunnes	aucun	PROind	indefini	aucunnes
+aultrez	autre	PROind	indefini	aultrez
+auchunez	aucun	PROind	indefini	auchunez
+mei	moi	PROper	personnel	meí
+voz	vous	PROper	personnel	vóz
+g'	je	PROper	personnel	g’
+j'	je	PROper	personnel	j’
+il	il	PROper	personnel	íl
+lui	lui	PROper	personnel	luí
+m'	mon	PROper	personnel	m’
+m'	me	PROper	personnel	m’
+m'	je	PROper	personnel	m’
+lui	il	PROper	personnel	luí
+eux	eux	PROper	personnel	eüx
+lie	lui	PROper	personnel	lyé
+nobis	nobis	PROper	personnel	nobis
+els	lui	PROper	personnel	éls
+vus	vous	PROper	personnel	vús
+vus	vos	PROper	personnel	vús
+lui	il	PROper	personnel	lúí
+eux	lui	PROper	personnel	eüx
+lui	loi	PROper	personnel	lúí
+lui	lui	PROper	personnel	lúí
+nu	nous	PROper	personnel	nú
+lie	ele	PROper	personnel	lyé
+eux	ele	PROper	personnel	eüx
+lye	lui	PROper	personnel	lyé
+voz	vos	PROper	personnel	vóz
+toi	toi	PROper	personnel	toí
+lui	loi	PROper	personnel	lúi
+nus	nos	PROper	personnel	nús
+el	el	PROper	personnel	él
+nus	nous	PROper	personnel	nús
+el	elle	PROper	personnel	él
+nus	nul	PROper	personnel	nús
+el	en	PROper	personnel	él
+ellez	elle	PROper	personnel	ellez
+el	il	PROper	personnel	él
+aulz	lui	PROper	personnel	aulz
+lui	lui	PROper	personnel	lúi
+lei	loi	PROper	personnel	ley
+lei	elle	PROper	personnel	ley
+elez	elle	PROper	personnel	ellez
+ele	ele	PROper	personnel	éle
+ele	elle	PROper	personnel	éle
+l'	il	PROper	personnel	l’
+toi	taire	PROper	personnel	toí
+l'	le	PROper	personnel	l’
+ele	il	PROper	personnel	éle
+l'	li	PROper	personnel	l’
+éle	elle	PROper	personnel	éle
+lez	ele	PROper	personnel	léz
+jol	il	PROper	personnel	jól
+lui	loi	PROper	personnel	luí
+els	eux	PROper	personnel	éls
+lu	lui	PROper	personnel	lú
+eus	lui	PROper	personnel	eüx
+eil	elle	PROper	personnel	eil
+lu	le	PROper	personnel	lú
+tu	tu	PROper	personnel	tú
+s'	si	PROper	personnel	s’
+s'	soi	PROper	personnel	s’
+s'	se	PROper	personnel	s’
+lui	il	PROper	personnel	lúi
+eus	eux	PROper	personnel	eüx
+els	elle	PROper	personnel	éls
+s'	son	PROper	personnel	s’
+toi	tu	PROper	personnel	toí

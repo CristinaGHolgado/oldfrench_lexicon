@@ -1,0 +1,60 @@
+forme	lemme	pos	type
+aaste	es.tu	ADVgen.PROper	_
+jasoit	jà+être	ADVgen+VERcjg	_
+nel	ne.il	ADVneg.PROper	négation
+nel	ne.le	ADVneg.PROper	négation
+nel	ne	ADVneg.PROper	négation
+neln	ne.me	ADVneg.PROper	négation
+neln	ne.me	ADVneg.PROper	_
+sin	si.en	ADVgen.PROadv	_
+asquelx	à.lequel	PRE.PROrel	
+au	à.le	PRE.DETdef	
+au	à.le	PRE.PROper	
+audict	À	PRE.DETcom	
+audictz	À	PRE.DETcom	
+aulx	À	PRE.DETdef	
+ausdictes	À	PRE.DETcom	
+ausdicts	À	PRE.DETcom	
+ausdiz	à.ledit	PRE.DETcom	
+auxquelles	À	PRE.PROrel	
+auxquels	à.lequel	PRE.PROrel	
+avesques	avec	preposition	
+az	à.le	PRE.DETdef	
+az	à.lequel	PRE.PROrel	
+del	de.il	PRE.PROper	
+del	de.le	PRE.DETdef	
+del	de.le	PRE.PROper	
+del	de.lequel	PRE.DETrel
+desdicts	de	PRE.DETcom	
+desdis	de	PRE.DETcom	
+desdiz	de.ledit	PRE.DETcom	
+desdiz	de.ledit	PRE.PROcom	
+desquelles	de.lequel	PRE.DETrel	
+desquelles	de.lequel	PRE.PROrel	
+desquels	de.lequel	PRE.PROrel	
+desquelx	de.lequel	PRE.DETrel	
+desquelx	de.lequel	PRE.PROrel	
+desquelz	de	PRE.PROrel	
+desquiex	de	PRE.PROrel
+dez	de.le	PRE.DETdef	
+dudict	de	PRE.DETcom	
+dudit	de.ledit	PRE.DETcom	
+duquel	de.lequel	PRE.DETrel	
+duquel	de.lequel	PRE.PROrel	
+ès	en.le	PRE.DETdef	
+oudit	en.ledit	PRE.DETcom
+ad	a+le	preposition	
+enl	en+le	preposition	
+entreux	entre-eux	preposition	
+ov	en+le	preposition	
+els	en+le	preposition	
+ges	je.il	PROper.PROper	
+jel	je.il	PROper.PROper	
+jel	je.le	PROper.PROper	
+jes	je.il	PROper.PROper	
+jes	je.le	PROper.PROper	
+jol	je.le	PROper.PROper	
+kil	qui.le	PROrel.PROper	
+kil	qui.le	PROint.PROper	
+kis	qui.le	PROrel.PROper	
+kis	qui.se	PROrel.PROper	

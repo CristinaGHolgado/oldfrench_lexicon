@@ -1,0 +1,37 @@
+form	def_pos	def_lemma	def_morph	source	UPOS	pos
+aútre	DET	autre	_	FROLEX	DET	DET
+cestúi	DET	cist	_	FROLEX	DET	DET
+chascúne	DET	chacun	_	BFMGOLDLEM	DET	DET
+dún	DET	dun	cont	FROLEX	DET	DET
+l´	DET	le	_	FROLEX	DET	DET
+lúi	DET	le	_	FROLEX	DET	DET
+lúí	DET	le	_	FROLEX	DET	DET
+m´	DET	je	_	FROLEX	DET	DET
+nú	DET	nul	_	FROLEX	DET	DET
+núef	DET	neuf	_	BFMGOLDLEM	DET	DET
+núls	DET	nul	_	FROLEX	DET	DET
+nús	DET	nul	_	FROLEX	DET	DET
+súen	DET	son	_	FROLEX	DET	DET
+súi	DET	son	_	FROLEX	DET	DET
+sún	DET	son	_	FROLEX	DET	DET
+trestúte	DET	trestot	_	FROLEX	DET	DET
+tú	DET	tot	_	FROLEX	DET	DET
+tút	DET	tot	_	FROLEX	DET	DET
+túte	DET	tot	_	FROLEX	DET	DET
+tútes	DET	tot	_	FROLEX	DET	DET
+túz	DET	tot	_	FROLEX	DET	DET
+vús	DET	vostre	_	FROLEX	DET	DET
+úm	DET	un	_	FROLEX	DET	DET
+únes	DETndf	uns	_	FROLEX	DET	DET
+úns	DET	uns	_	FROLEX	DET	DET
+únt	DET	un	_	FROLEX	DET	DET
+úre	DET	vostre	_	FROLEX	DET	DET
+ús	DET	un	_	FROLEX	DET	DET
+chascune	DET	chascun	_	BFMGOLDLEM	DET	
+nuef	DET	neuf	_	FROLEX	DET	
+unes	DET	uns	_	FROLEX	DET	
+uns	DETndf	uns	_	FROLEX	DET	
+uns	DETcar	uns	_	FROLEX	DET	
+dun	DET	dun	_	FROLEX	DET	
+l'	DETcar|DETind	le	def	FROLEX	DET	
+l'	DETdef	le	def	FROLEX	DET	

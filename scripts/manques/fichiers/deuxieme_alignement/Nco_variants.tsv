@@ -1,0 +1,244 @@
+form	def_pos	def_lemma	def_morph	source	UPOS	pos
+alúres	NCO	allure	fem	FROLEX	NCO	NCO
+amúnt	NCO	amont	_	FROLEX	NCO	NCO
+assúr	NCO	azur	masc	FROLEX	NCO	NCO
+aútel	NCO	autel	_	FROLEX	NCO	NCO
+aútél	NCO	autel	_	FROLEX	NCO	NCO
+búes	NCO	boeuf	fem	FROLEX	NCO	NCO
+búille	NCO	boille	fem	FROLEX	NCO	NCO
+colúmpnes	NCO	colonne	fem	LGERM	NCO	NCO
+cundúit	NCO	conduit	_	FROLEX	NCO	NCO
+cúés	NCO	choix	masc	FROLEX	NCO	NCO
+descendúe	NCO	descendue	fem	FROLEX	NCO	NCO
+desúre	NCO	dessure	_	FROLEX	NCO	NCO
+desús	NCO	désus	_	FROLEX	NCO	NCO
+desúz	NCO	dessus	masc	FROLEX	NCO	NCO
+doús	NCO	deuil	_	FROLEX	NCO	NCO
+dreitúre	NCO	droiture	_	BFMGOLDLEM	NCO	NCO
+dúi	NCO	duit	masc|fem	FROLEX	NCO	NCO
+dúit	NCO	duit	_	FROLEX	NCO	NCO
+dún	NCO	don	masc	FROLEX	NCO	NCO
+dúne	NCO	dune	_	FROLEX	NCO	NCO
+dúres	NCO	dur	_	FROLEX	NCO	NCO
+encúntre	NCO	encontre	_	FROLEX	NCO	NCO
+engravúre	NCO	engravure	fem	FROLEX	NCO	NCO
+escúiers	NCO	escuier	_	BFMGOLDLEM	NCO	NCO
+esmút	NCO	esmut	masc	FROLEX	NCO	NCO
+estúe	NCO	éteuf	masc	FROLEX	NCO	NCO
+flúm	NCO	flum	masc	FROLEX	NCO	NCO
+flúr	NCO	fleur	fem	FROLEX	NCO	NCO
+frúiz	NCO	fruit	masc	FROLEX	NCO	NCO
+frúnt	NCO	front	masc	FROLEX	NCO	NCO
+fú	NCO	feu	_	FROLEX	NCO	NCO
+fúie	NCO	fuie	_	FROLEX	NCO	NCO
+fúnz	NCO	fond	masc	FROLEX	NCO	NCO
+fús	NCO	fût	masc	FROLEX	NCO	NCO
+fúst	NCO	fût	masc	FROLEX	NCO	NCO
+fúí	NCO	fuie	_	FROLEX	NCO	NCO
+húche	NCO	huche	_	FROLEX	NCO	NCO
+húem	NCO	homme	masc	FROLEX	NCO	NCO
+júges	NCO	juge	masc	FROLEX	NCO	NCO
+júgier	NCO	gésier	_	FROLEX	NCO	NCO
+júr	NCO	jour	_	FROLEX	NCO	NCO
+júrs	NCO	jour	_	BFMGOLDLEM	NCO	NCO
+júínz	NCO	juin	masc	FROLEX	NCO	NCO
+lú	NCO	loup	_	FROLEX	NCO	NCO
+lúne	NCO	lune	_	FROLEX	NCO	NCO
+lút	NCO	lut	masc	FROLEX	NCO	NCO
+mahúmeríe	NCO	mahomerie	_	FROLEX	NCO	NCO
+malfaitúrs	NCO	malfaiteur	_	FROLEX	NCO	NCO
+meez	NCO	mais	_	FROLEX	NCO	NCO
+menúr	NCO	mineur	masc	FROLEX	NCO	NCO
+menúrs	NCO	mineur	_	FROLEX	NCO	NCO
+mesúres	NCO	mesure	_	FROLEX	NCO	NCO
+multúns	NCO	mouton	_	FROLEX	NCO	NCO
+múis	NCO	muid	masc	FROLEX	NCO	NCO
+múle	NCO	meule	fem|plur	FROLEX	NCO	NCO
+múnz	NCO	monde	masc	FROLEX	NCO	NCO
+múr	NCO	mur	_	BFMGOLDLEM	NCO	NCO
+múrs	NCO	mœurs	masc	FROLEX	NCO	NCO
+nú	NCO	non	_	FROLEX	NCO	NCO
+núe	NCO	nu	_	FROLEX	NCO	NCO
+núle	NCO	nuble	_	FROLEX	NCO	NCO
+núm	NCO	nom	masc	FROLEX	NCO	NCO
+núálz	NCO	noals	_	FROLEX	NCO	NCO
+núé	NCO	nu	_	FROLEX	NCO	NCO
+núés	NCO	nüe	_	BFMGOLDLEM	NCO	NCO
+ocísiún	NCO	ocison	_	FROLEX	NCO	NCO
+plúie	NCO	pluie	_	BFMGOLDLEM	NCO	NCO
+plúies	NCO	pluie	_	BFMGOLDLEM	NCO	NCO
+péissúns	NCO	paisson	_	BFMGOLDLEM	NCO	NCO
+púin	NCO	poing	masc	FROLEX	NCO	NCO
+púis	NCO	puits	masc	FROLEX	NCO	NCO
+púldre	NCO	poudre	_	FROLEX	NCO	NCO
+púrpre	NCO	pourpre	masc	FROLEX	NCO	NCO
+qúer	NCO	coeur	masc	FROLEX	NCO	NCO
+remúe	NCO	remue	_	FROLEX	NCO	NCO
+segnúr	NCO	seigneur	masc	LGERM	NCO	NCO
+seignúr	NCO	seigneur	_	BFMGOLDLEM	NCO	NCO
+sepultúre	NCO	sépulture	fem	FROLEX	NCO	NCO
+seígnúr	NCO	seigneur	_	BFMGOLDLEM	NCO	NCO
+sucúrs	NCO	secours	_	BFMGOLDLEM	NCO	NCO
+séignúr	NCO	seigneur	_	BFMGOLDLEM	NCO	NCO
+súd	NCO	sud	masc	FROLEX	NCO	NCO
+súe	NCO	su	_	FROLEX	NCO	NCO
+sún	NCO	suint	_	FROLEX	NCO	NCO
+súz	NCO	su	_	FROLEX	NCO	NCO
+sýriens	NCO	syrien	masc	LGERM	NCO	NCO
+tenúe	NCO	tenue	fem	FROLEX	NCO	NCO
+trestúte	NCO	trestot	_	FROLEX	NCO	NCO
+túte	NCO	tute	fem	FROLEX	NCO	NCO
+tútes	NCO	tute	_	FROLEX	NCO	NCO
+týr	NCO	tyr	masc	LGERM	NCO	NCO
+veneisún	NCO	venaison	_	FROLEX	NCO	NCO
+venúe	NCO	venir	fem	FROLEX	NCO	NCO
+vús	NCO	vide	_	FROLEX	NCO	NCO
+ámúnt	NCO	amont	_	FROLEX	NCO	NCO
+átúr	NCO	atour	masc|fem	FROLEX	NCO	NCO
+ávenú	NCO	avenu	masc	FROLEX	NCO	NCO
+énnúi	NCO	ennui	fem	FROLEX	NCO	NCO
+úre	NCO	heure	_	FROLEX	NCO	NCO
+ús	NCO	us	masc	FROLEX	NCO	NCO
+úvre	NCO	oeuvre	masc|fem	LGERM	NCO	NCO
+úéilles	NCO	veille	_	FROLEX	NCO	NCO
+úés	NCO	ues	masc	FROLEX	NCO	NCO
+ýdle	NCO	idole	masc|fem	FROLEX	NCO	NCO
+ýdles	NCO	idole	masc|fem	FROLEX	NCO	NCO
+nues	NCO	nue	_	BFMGOLDLEM	NCO	
+escuiers	NCO	écuyer	_	BFMGOLDLEM	NCO	
+remue	NCO	remue	fem	FROLEX	NCO	
+quer	NCO	coeur	_	FROLEX	NCO	
+puin	NCO	point	masc	FROLEX	NCO	
+puis	NCO	puy	masc	FROLEX	NCO	
+puis	NCO	puy	_	FROLEX	NCO	
+puldre	NCO	poudre	fem	FROLEX	NCO	
+purpre	NCO	pourpre	fem	FROLEX	NCO	
+puis	NCO	puits	_	FROLEX	NCO	
+mesures	NCO	mesure	fem	FROLEX	NCO	
+mule	NCO	moelle	fem|plur	FROLEX	NCO	
+mule	NCO	mule	fem|plur	FROLEX	NCO	
+murs	NCO	mœurs	fem	FROLEX	NCO	
+mule	NCO	meule	masc	FROLEX	NCO	
+mule	NCO	mule	masc	FROLEX	NCO	
+mule	NCO	meule	fem	FROLEX	NCO	
+mule	NCO	moelle	fem	FROLEX	NCO	
+mule	NCO	mule	fem	FROLEX	NCO	
+munz	NCO	mont	masc	FROLEX	NCO	
+mule	NCO	moelle	masc	FROLEX	NCO	
+nues	NCO	nu	_	FROLEX	NCO	
+nues	NCO	nue	_	FROLEX	NCO	
+nues	NCO	nüe	_	FROLEX	NCO	
+nues	NCO	nu	fem	FROLEX	NCO	
+nues	NCO	nue	fem	FROLEX	NCO	
+num	NCO	non	masc	FROLEX	NCO	
+nues	NCO	nüe	fem	FROLEX	NCO	
+nue	NCO	nue	_	FROLEX	NCO	
+nue	NCO	nu	fem	FROLEX	NCO	
+nue	NCO	nue	fem	FROLEX	NCO	
+nue	NCO	nue	_	FROLEX	NCO	
+nue	NCO	nu	fem	FROLEX	NCO	
+nue	NCO	nue	fem	FROLEX	NCO	
+ueilles	NCO	veille	fem	FROLEX	NCO	
+ueiles	NCO	ouaille	_	FROLEX	NCO	
+ues	NCO	ues	masc	FROLEX	NCO	
+tute	NCO	tute	_	FROLEX	NCO	
+tutes	NCO	tute	fem	FROLEX	NCO	
+venue	NCO	venue	fem	FROLEX	NCO	
+venue	NCO	venüe	fem	FROLEX	NCO	
+venue	NCO	venir	_	FROLEX	NCO	
+venue	NCO	venue	_	FROLEX	NCO	
+venue	NCO	venüe	_	FROLEX	NCO	
+idle	NCO	idole	fem	FROLEX	NCO	
+idle	NCO	île	fem	FROLEX	NCO	
+idle	NCO	idole	masc|fem	FROLEX	NCO	
+idle	NCO	île	masc|fem	FROLEX	NCO	
+ure	NCO	hure	_	FROLEX	NCO	
+ure	NCO	ore	_	FROLEX	NCO	
+ure	NCO	heure	fem	FROLEX	NCO	
+ure	NCO	hure	fem	FROLEX	NCO	
+ure	NCO	ore	fem	FROLEX	NCO	
+us	NCO	ut	masc	FROLEX	NCO	
+us	NCO	us	masc plur	FROLEX	NCO	
+us	NCO	ut	masc plur	FROLEX	NCO	
+sue	NCO	sue	_	FROLEX	NCO	
+sue	NCO	su	fem	FROLEX	NCO	
+sue	NCO	sue	fem	FROLEX	NCO	
+sue	NCO	su	masc	FROLEX	NCO	
+sue	NCO	sue	masc	FROLEX	NCO	
+tenue	NCO	tenu	masc	FROLEX	NCO	
+tenue	NCO	tenue	masc	FROLEX	NCO	
+tenue	NCO	tenu	fem	FROLEX	NCO	
+tenue	NCO	tenue	_	FROLEX	NCO	
+tenue	NCO	tenu	_	FROLEX	NCO	
+sun	NCO	suint	masc	FROLEX	NCO	
+suz	NCO	su	masc	FROLEX	NCO	
+menur	NCO	mineur	_	FROLEX	NCO	
+desuz	NCO	désus	masc	FROLEX	NCO	
+desuz	NCO	dessus	_	FROLEX	NCO	
+desuz	NCO	désus	_	FROLEX	NCO	
+desus	NCO	dessus	_	FROLEX	NCO	
+descendue	NCO	descendue	_	FROLEX	NCO	
+desus	NCO	désus	masc	FROLEX	NCO	
+desus	NCO	dessus	masc	FROLEX	NCO	
+dous	NCO	deuil	masc	FROLEX	NCO	
+dune	NCO	dune	fem	FROLEX	NCO	
+encuntre	NCO	encontre	fem	FROLEX	NCO	
+dun	NCO	don	_	FROLEX	NCO	
+dui	NCO	duit	_	FROLEX	NCO	
+duit	NCO	duit	masc	FROLEX	NCO	
+duit	NCO	duit	masc|fem	FROLEX	NCO	
+autel	NCO	autel	masc	FROLEX	NCO	
+autel	NCO	autel	masc	FROLEX	NCO	
+amunt	NCO	amont	masc	FROLEX	NCO	
+asur	NCO	azur	masc	FROLEX	NCO	
+amunt	NCO	amont	masc	FROLEX	NCO	
+assur	NCO	azur	_	FROLEX	NCO	
+cunduit	NCO	conduit	masc	FROLEX	NCO	
+cues	NCO	choix	_	FROLEX	NCO	
+avenu	NCO	avenu	_	FROLEX	NCO	
+bues	NCO	buie	fem	FROLEX	NCO	
+bues	NCO	boeuf	_	FROLEX	NCO	
+bues	NCO	buie	_	FROLEX	NCO	
+bues	NCO	boeuf	masc	FROLEX	NCO	
+bues	NCO	buie	masc	FROLEX	NCO	
+enui	NCO	ennui	_	FROLEX	NCO	
+lu	NCO	lieu	_	FROLEX	NCO	
+jur	NCO	jour	masc	FROLEX	NCO	
+ennui	NCO	ennui	masc	FROLEX	NCO	
+lu	NCO	lieu	masc	FROLEX	NCO	
+lu	NCO	loup	masc	FROLEX	NCO	
+mez	NCO	mes	_	FROLEX	NCO	
+mez	NCO	metre	_	FROLEX	NCO	
+mez	NCO	mets	_	FROLEX	NCO	
+mez	NCO	mais	masc	FROLEX	NCO	
+mez	NCO	mes	masc	FROLEX	NCO	
+mez	NCO	metre	masc	FROLEX	NCO	
+mez	NCO	mets	masc	FROLEX	NCO	
+lune	NCO	lune	fem	FROLEX	NCO	
+lut	NCO	luth	masc	FROLEX	NCO	
+lut	NCO	lut	_	FROLEX	NCO	
+lut	NCO	luth	_	FROLEX	NCO	
+estue	NCO	éteuf	_	FROLEX	NCO	
+frunt	NCO	front	_	FROLEX	NCO	
+fu	NCO	feu	masc	FROLEX	NCO	
+enui	NCO	enui	_	FROLEX	NCO	
+enui	NCO	ennui	masc	FROLEX	NCO	
+enui	NCO	enui	masc	FROLEX	NCO	
+esmut	NCO	esmut	_	FROLEX	NCO	
+fruiz	NCO	fruit	_	FROLEX	NCO	
+fui	NCO	fuie	fem	FROLEX	NCO	
+huche	NCO	huche	masc	FROLEX	NCO	
+huche	NCO	huche	fem	FROLEX	NCO	
+juges	NCO	juge	_	FROLEX	NCO	
+jugier	NCO	gésier	masc	FROLEX	NCO	
+fust	NCO	fût	_	FROLEX	NCO	
+idles	NCO	île	masc|fem	FROLEX	NCO	
+fuie	NCO	fuie	fem	FROLEX	NCO	
+funz	NCO	font	masc	FROLEX	NCO	
+fus	NCO	feu	_	FROLEX	NCO	
+funz	NCO	fonts	masc	FROLEX	NCO	
+fus	NCO	feu	masc	FROLEX	NCO	
+fus	NCO	fût	_	FROLEX	NCO	
+assur	NCO	azur	masc	LGERM	NCO	
+ydles	NCO	idole	masc|fem	LGERM	NCO	
+malfaiturs	NCO	malfaiteur	_	LGERM	NCO	

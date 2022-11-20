@@ -1,0 +1,760 @@
+form	def_pos	def_lemma	def_morph	source	UPOS	pos
+abaterúnt	VER	abattre	_	FROLEX	VER	VER
+abatúz	VER	abatre	_	BFMGOLDLEM	VER	VER
+alúres	NCO	allure	fem	FROLEX	NCO	NCO
+amúnt	ADVgen	amont	_	FROLEX	ADV	ADV
+amúnt	NCO	amont	_	FROLEX	NCO	NCO
+aparchút	VER	apercevoir	_	FROLEX	VER	VER
+aparút	VERcjg	apparaître	_	FROLEX	VER	VER
+aperchút	VERcjg	apercevoir	_	FROLEX	VER	VER
+apúier	VERinf	appuyer	_	FROLEX	VER	VER
+arestút	VER	arester	_	BFMGOLDLEM	VER	VER
+assúr	NCO	azur	masc	FROLEX	NCO	NCO
+assúr	ADV	assûr	_	LGERM	ADV	ADV
+assúr	NPO	assur	_	FROLEX	NPO	NPO
+assúr	ADJ	assûr	_	LGERM	ADJ	ADJ
+avúiltres	ADJ	avoutre	_	FROLEX	ADJ	ADJ
+avúm	VER	avoir	_	BFMGOLDLEM	VER	VER
+aútel	ADV	autel	_	FROLEX	ADV	ADV
+aútel	NCO	autel	_	FROLEX	NCO	NCO
+aútel	PRO	autel	_	FROLEX	PRO	PRO
+aútre	DET	autre	_	FROLEX	DET	DET
+aútre	PRO	autre	_	FROLEX	PRO	PRO
+aútél	ADV	autant	_	FROLEX	ADV	ADV
+aútél	PRO	autel	_	FROLEX	PRO	PRO
+aútél	NCO	autel	_	FROLEX	NCO	NCO
+bourgnygnons	NPO	bourguignon	_	BFMGOLDLEM	NPO	NPO
+búes	NCO	boeuf	fem	FROLEX	NCO	NCO
+búes	VER	boire	_	FROLEX	VER	VER
+búille	NCO	boille	fem	FROLEX	NCO	NCO
+celúi	PRO	celui/cil	_	FROLEX	PRO	PRO
+cestúi	DET	cist	_	FROLEX	DET	DET
+chascúne	DET	chacun	_	BFMGOLDLEM	DET	DET
+chascúne	PRO	chacun	_	BFMGOLDLEM	PRO	PRO
+colúmpnes	NCO	colonne	fem	LGERM	NCO	NCO
+críerúnt	VER	crier	_	FROLEX	VER	VER
+crúeses	VER	creuser	_	FROLEX	VER	VER
+cundúirunt	VER	conduire	_	FROLEX	VER	VER
+cundúit	NCO	conduit	_	FROLEX	NCO	NCO
+cunút	VERcjg	connaître	_	FROLEX	VER	VER
+curechád	VER	curecher	_	FROLEX	VER	VER
+curúciez	VERcjg	courroucer	_	FROLEX	VER	VER
+c´	PROdem	que	per	FROLEX	PRO	PRO
+c´	CONcoo	que	_	FROLEX	CON	CON
+c´	ADV	si	_	FROLEX	ADV	ADV
+cúillir	VER	clore	_	FROLEX	VER	VER
+cúngeád	VER	cungeier	_	FROLEX	VER	VER
+cúés	VER	cueillir	_	FROLEX	VER	VER
+cúés	NCO	choix	masc	FROLEX	NCO	NCO
+descendúe	NCO	descendue	fem	FROLEX	NCO	NCO
+descendúe	VER	descendre	_	FROLEX	VER	VER
+destrúi	VER	détruire	_	FROLEX	VER	VER
+destrúie	VERcjg	détruire	_	FROLEX	VER	VER
+destrúire	VERinf	détruire	_	FROLEX	VER	VER
+destrúist	VER	détruire	_	BFMGOLDLEM	VER	VER
+destrúistrent	VER	détruire	_	FROLEX	VER	VER
+destrúit	VER	détruire	_	BFMGOLDLEM	VER	VER
+destrúite	VER	détruire	_	BFMGOLDLEM	VER	VER
+destrúiz	VER	détruire	_	LGERM	VER	VER
+destrúístrent	VER	détruire	_	FROLEX	VER	VER
+desúre	PRE	desor	_	FROLEX	PRE	PRE
+desúre	NCO	dessure	_	FROLEX	NCO	NCO
+desúre	ADVgen	dessure	lieu	FROLEX	ADV	ADV
+desús	PRE	dessus	_	FROLEX	PRE	PRE
+desús	VER	décevoir	_	FROLEX	VER	VER
+desús	NCO	désus	_	FROLEX	NCO	NCO
+desús	ADVgen	dessus	_	FROLEX	ADV	ADV
+desúz	NCO	dessus	masc	FROLEX	NCO	NCO
+desúz	VER	décevoir	_	FROLEX	VER	VER
+desúz	PRE	desoz	_	FROLEX	PRE	PRE
+desúz	ADV	dessous	_	FROLEX	ADV	ADV
+doús	PRE	de+le	_	FROLEX	PRE	PRE
+doús	ADV	doux	_	FROLEX	ADV	ADV
+doús	NCO	deuil	_	FROLEX	NCO	NCO
+doús	ADJqua	doux	_	FROLEX	ADJ	ADJ
+doús	VER	deveir	_	FROLEX	VER	VER
+dreitúre	NCO	droiture	_	BFMGOLDLEM	NCO	NCO
+d´	PRE	de	_	BFMGOLDLEM	PRE	PRE
+dúi	NCO	duit	masc|fem	FROLEX	NCO	NCO
+dúi	VER	deus	_	FROLEX	VER	VER
+dúinse	VER	donner	_	FROLEX	VER	VER
+dúit	NCO	duit	_	FROLEX	NCO	NCO
+dúit	VER	duire	_	BFMGOLDLEM	VER	VER
+dún	NCO	don	masc	FROLEX	NCO	NCO
+dún	VER	donner	_	FROLEX	VER	VER
+dún	DET	dun	cont	FROLEX	DET	DET
+dúnad	VER	donner	_	LGERM	VER	VER
+dúne	ADV	dunne	_	FROLEX	ADV	ADV
+dúne	NCO	dune	_	FROLEX	NCO	NCO
+dúres	ADV	dur	_	FROLEX	ADV	ADV
+dúres	NCO	dur	_	FROLEX	NCO	NCO
+dúres	VER	durer	_	FROLEX	VER	VER
+dússent	VER	devoir	_	FROLEX	VER	VER
+dút	VER	devoir	_	BFMGOLDLEM	VER	VER
+dúze	ADJcar	doze	ord	FROLEX	ADJ	ADJ
+eissúd	VER	issir	_	FROLEX	VER	VER
+encúntre	VER	encontrer	_	FROLEX	VER	VER
+encúntre	ADVgen	encontre	_	FROLEX	ADV	ADV
+encúntre	PRE	encontre	_	FROLEX	PRE	PRE
+encúntre	NCO	encontre	_	FROLEX	NCO	NCO
+engravúre	NCO	engravure	fem	FROLEX	NCO	NCO
+entr´	VER	entraccorder	_	FROLEX	VER	VER
+entúr	ADV	entor	_	FROLEX	ADV	ADV
+escúiers	NCO	escuier	_	BFMGOLDLEM	NCO	NCO
+eslúé	VER	esluer	_	FROLEX	VER	VER
+esmút	VERcjg	émouvoir	_	FROLEX	VER	VER
+esmút	NCO	esmut	masc	FROLEX	NCO	NCO
+espúer	VER	espuer	_	FROLEX	VER	VER
+estrúiz	VER	estruire	_	FROLEX	VER	VER
+estúe	VER	estuer	_	FROLEX	VER	VER
+estúe	NCO	éteuf	masc	FROLEX	NCO	NCO
+estúrent	VERcjg	ester	_	FROLEX	VER	VER
+estúst	VER	estovoir	_	LGERM	VER	VER
+estút	VERcjg	ester	_	FROLEX	VER	VER
+explycit	ADJ	explicit	_	FROLEX	ADJ	ADJ
+eíssúz	VER	issir	_	BFMGOLDLEM	VER	VER
+flúm	NCO	flum	masc	FROLEX	NCO	NCO
+flúr	NCO	fleur	fem	FROLEX	NCO	NCO
+frúiz	NCO	fruit	masc	FROLEX	NCO	NCO
+frúnt	NCO	front	masc	FROLEX	NCO	NCO
+fú	NCO	feu	_	FROLEX	NCO	NCO
+fúie	VER	fuir	_	FROLEX	VER	VER
+fúie	NCO	fuie	_	FROLEX	NCO	NCO
+fúms	VER	estre	_	FROLEX	VER	VER
+fúnz	NCO	fond	masc	FROLEX	NCO	NCO
+fúrent	VER	être	_	BFMGOLDLEM	VER	VER
+fús	VERcjg	fondre	_	FROLEX	VER	VER
+fús	NCO	fût	masc	FROLEX	NCO	NCO
+fúst	VER	fût	_	FROLEX	VER	VER
+fúst	NCO	fût	masc	FROLEX	NCO	NCO
+fúí	VERcjg	être	_	FROLEX	VER	VER
+fúí	NCO	fuie	_	FROLEX	NCO	NCO
+guerrióúént	VER	guerreier	_	FROLEX	VER	VER
+g´	PRO	je	_	BFMGOLDLEM	PRO	PRO
+hautbourbin	NPO	hautbourdin	_	BFMGOLDLEM	NPO	NPO
+hautbourdin	NPO	hautbourdin	_	BFMGOLDLEM	NPO	NPO
+húche	NCO	huche	_	FROLEX	NCO	NCO
+húem	NCO	homme	masc	FROLEX	NCO	NCO
+húme	VER	humer	_	FROLEX	VER	VER
+húmes	VER	humer	_	FROLEX	VER	VER
+j´	PRO	je	_	BFMGOLDLEM	PRO	PRO
+júges	NCO	juge	masc	FROLEX	NCO	NCO
+júges	VER	juger	_	FROLEX	VER	VER
+júgier	NCO	gésier	_	FROLEX	NCO	NCO
+júgier	VERinf	juger	_	FROLEX	VER	VER
+júintes	VERppe	juinter	_	FROLEX	VER	VER
+júner	VER	jeûner	_	LGERM	VER	VER
+júr	NCO	jour	_	FROLEX	NCO	NCO
+júrad	VER	jurer	_	BFMGOLDLEM	VER	VER
+júrs	NCO	jour	_	BFMGOLDLEM	NCO	NCO
+júrái	VER	jurer	_	FROLEX	VER	VER
+jút	VERppe	gésir	_	FROLEX	VER	VER
+júíntes	VERppe	juinter	_	FROLEX	VER	VER
+júínz	NCO	juin	masc	FROLEX	NCO	NCO
+júínz	VER	joindre	_	FROLEX	VER	VER
+longeumeau	NPO	longjumeau	_	BFMGOLDLEM	NPO	NPO
+l´	DET	le	_	FROLEX	DET	DET
+l´	PROper	li	per	FROLEX	PRO	PRO
+lú	VER	lire	_	FROLEX	VER	VER
+lú	PRO	lui	per	FROLEX	PRO	PRO
+lú	NCO	loup	_	FROLEX	NCO	NCO
+lúi	VER	lire	_	FROLEX	VER	VER
+lúi	PRO	loi	_	FROLEX	PRO	PRO
+lúi	DET	le	_	FROLEX	DET	DET
+lúne	NCO	lune	_	FROLEX	NCO	NCO
+lúne	NPO	lune	_	FROLEX	NPO	NPO
+lút	NCO	lut	masc	FROLEX	NCO	NCO
+lút	VER	lire	_	FROLEX	VER	VER
+lúí	PRO	loi	_	FROLEX	PRO	PRO
+lúí	VER	lire	_	FROLEX	VER	VER
+lúí	DET	le	_	FROLEX	DET	DET
+mahúmeríe	NCO	mahomerie	_	FROLEX	NCO	NCO
+malfaitúrs	ADJ	malfaiteur	_	LGERM	ADJ	ADJ
+malfaitúrs	NCO	malfaiteur	_	FROLEX	NCO	NCO
+meez	NPO	metz	_	FROLEX	NPO	NPO
+meez	ADV	mais	intensité	FROLEX	ADV	ADV
+meez	VER	manoir	_	FROLEX	VER	VER
+meez	CON	mais	_	FROLEX	CON	CON
+meez	NCO	mais	_	FROLEX	NCO	NCO
+menúr	NCO	mineur	masc	FROLEX	NCO	NCO
+menúr	ADJ	mineur	_	FROLEX	ADJ	ADJ
+menúrs	NCO	mineur	_	FROLEX	NCO	NCO
+merveillús	ADJ	merveilleux	_	BFMGOLDLEM	ADJ	ADJ
+merveillúse	ADJ	merveilleux	_	BFMGOLDLEM	ADJ	ADJ
+mesúres	NCO	mesure	_	FROLEX	NCO	NCO
+multúns	NCO	mouton	_	FROLEX	NCO	NCO
+murút	VER	mourir	_	BFMGOLDLEM	VER	VER
+m´	PRO	mon	per	FROLEX	PRO	PRO
+m´	ADJ	mon	_	FROLEX	ADJ	ADJ
+m´	DET	je	_	FROLEX	DET	DET
+múis	NCO	muid	masc	FROLEX	NCO	NCO
+múle	NCO	meule	fem|plur	FROLEX	NCO	NCO
+múnz	NCO	monde	masc	FROLEX	NCO	NCO
+múr	NCO	mur	_	BFMGOLDLEM	NCO	NCO
+múrged	VER	mourir	_	FROLEX	VER	VER
+múrs	NCO	mœurs	masc	FROLEX	NCO	NCO
+n´	CONcoo	ne	_	FROLEX	CON	CON
+n´	ADVgen	en	nég	FROLEX	ADV	ADV
+nú	DET	nul	_	FROLEX	DET	DET
+nú	ADJqua	nu	_	FROLEX	ADJ	ADJ
+nú	PRO	nous	_	FROLEX	PRO	PRO
+nú	NCO	non	_	FROLEX	NCO	NCO
+nú	ADV	ne	_	FROLEX	ADV	ADV
+núe	ADJ	nu	_	FROLEX	ADJ	ADJ
+núe	VER	nu	_	FROLEX	VER	VER
+núe	NCO	nu	_	FROLEX	NCO	NCO
+núef	ADJ	neuf	_	BFMGOLDLEM	ADJ	ADJ
+núef	DET	neuf	_	BFMGOLDLEM	DET	DET
+núle	NCO	nuble	_	FROLEX	NCO	NCO
+núls	DET	nul	_	FROLEX	DET	DET
+núm	NCO	nom	masc	FROLEX	NCO	NCO
+nús	ADJ	nu	_	FROLEX	ADJ	ADJ
+nús	PROind	nul	per	FROLEX	PRO	PRO
+nús	DET	nul	_	FROLEX	DET	DET
+núálz	NCO	noals	_	FROLEX	NCO	NCO
+núé	VER	nu	_	FROLEX	VER	VER
+núé	NCO	nu	_	FROLEX	NCO	NCO
+núé	ADJ	nu	_	FROLEX	ADJ	ADJ
+núés	VER	nuer	_	FROLEX	VER	VER
+núés	NCO	nüe	_	BFMGOLDLEM	NCO	NCO
+núés	ADJ	nu	_	BFMGOLDLEM	ADJ	ADJ
+ocísiún	NCO	ocison	_	FROLEX	NCO	NCO
+oúrent	VERcjg	ouïr	_	FROLEX	VER	VER
+oút	PRO	où	_	FROLEX	PRO	PRO
+oút	VERcjg	avoir	_	FROLEX	VER	VER
+paenúr	ADJ	païenor	_	FROLEX	ADJ	ADJ
+partút	ADV	partout	_	BFMGOLDLEM	ADV	ADV
+parúrent	VERcjg	paraître	_	FROLEX	VER	VER
+parút	VERcjg	paraître	_	FROLEX	VER	VER
+phúl	NPO	phul	_	FROLEX	NPO	NPO
+plúie	NCO	pluie	_	BFMGOLDLEM	NCO	NCO
+plúies	NCO	pluie	_	BFMGOLDLEM	NCO	NCO
+poúrent	VERcjg	paître	_	FROLEX	VER	VER
+prophetizoút	VER	propheter	_	FROLEX	VER	VER
+péissúns	NCO	paisson	_	BFMGOLDLEM	NCO	NCO
+púet	VERcjg	pouvoir	_	FROLEX	VER	VER
+púin	NCO	poing	masc	FROLEX	NCO	NCO
+púis	NCO	puits	masc	FROLEX	NCO	NCO
+púis	VER	puis	_	FROLEX	VER	VER
+púldre	NCO	poudre	_	FROLEX	NCO	NCO
+púrpre	NCO	pourpre	masc	FROLEX	NCO	NCO
+púrpre	ADJ	porpre	_	FROLEX	ADJ	ADJ
+qúer	VERcjg	quérir	_	FROLEX	VER	VER
+qúer	NCO	coeur	masc	FROLEX	NCO	NCO
+rechút	VERcjg	recevoir	_	FROLEX	VER	VER
+recunúrent	VER	cunuistre	_	FROLEX	VER	VER
+refúi	VER	refuir	_	FROLEX	VER	VER
+refúrent	VERcjg	restre	_	FROLEX	VER	VER
+remúe	NCO	remue	_	FROLEX	NCO	NCO
+remúe	VERcjg	remuer	_	FROLEX	VER	VER
+remúer	VERinf	remuer	_	FROLEX	VER	VER
+remúér	VERinf	remuer	_	FROLEX	VER	VER
+resúned	VER	suner	_	FROLEX	VER	VER
+rubembré	NPO	rubempré	_	BFMGOLDLEM	NPO	NPO
+rubempré	NPO	rubempré	_	BFMGOLDLEM	NPO	NPO
+rúer	VERinf	ruer	_	FROLEX	VER	VER
+rúnd	ADJ	rëont	_	FROLEX	ADJ	ADJ
+salezart	NPO	salazar	_	BFMGOLDLEM	NPO	NPO
+salomún	NPO	salomon	_	BFMGOLDLEM	NPO	NPO
+salúerunt	VER	saluer	_	FROLEX	VER	VER
+segnúr	NCO	seigneur	masc	LGERM	NCO	NCO
+seignúr	NCO	seigneur	_	BFMGOLDLEM	NCO	NCO
+sellúm	PRE	selonc	_	FROLEX	PRE	PRE
+sellúm	NPO	sellum	_	LGERM	NPO	NPO
+sepultúre	NCO	sépulture	fem	FROLEX	NCO	NCO
+serrúnt	VER	être	_	BFMGOLDLEM	VER	VER
+seígnúr	NCO	seigneur	_	BFMGOLDLEM	NCO	NCO
+sicúme	ADV	sicomme	_	FROLEX	ADV	ADV
+soldeássent	VER	soldeir	_	FROLEX	VER	VER
+soút	NPO	sout	_	FROLEX	NPO	NPO
+soút	VERcjg	savoir	_	FROLEX	VER	VER
+sucúrs	NCO	secours	_	BFMGOLDLEM	NCO	NCO
+s´	ADJ	siene	_	FROLEX	ADJ	ADJ
+s´	CON	se	_	FROLEX	CON	CON
+s´	ADV	si	_	FROLEX	ADV	ADV
+s´	PRO	son	_	FROLEX	PRO	PRO
+sálúer	VERinf	saluer	_	FROLEX	VER	VER
+sálúér	VERinf	saluer	_	FROLEX	VER	VER
+séignúr	NCO	seigneur	_	BFMGOLDLEM	NCO	NCO
+súd	NCO	sud	masc	FROLEX	NCO	NCO
+súe	VERcjg	suer	_	FROLEX	VER	VER
+súe	PRO	suen	_	FROLEX	PRO	PRO
+súe	NCO	su	_	FROLEX	NCO	NCO
+súen	DET	son	_	FROLEX	DET	DET
+súen	ADJ	siene	_	FROLEX	ADJ	ADJ
+súen	PRO	sien	_	FROLEX	PRO	PRO
+súi	VERcjg	suivre	_	FROLEX	VER	VER
+súi	DET	son	_	FROLEX	DET	DET
+súlement	ADVgen	seulement	_	FROLEX	ADV	ADV
+súls	ADJqua	seul	_	FROLEX	ADJ	ADJ
+sún	NPO	sun	_	FROLEX	NPO	NPO
+sún	NCO	suint	_	FROLEX	NCO	NCO
+sún	ADJ	sien	_	FROLEX	ADJ	ADJ
+sún	VER	estre	_	FROLEX	VER	VER
+sún	DET	son	_	FROLEX	DET	DET
+súnt	VERcjg	sonner	_	FROLEX	VER	VER
+súrent	VER	suivre	_	FROLEX	VER	VER
+súz	ADVgen	soz	_	FROLEX	ADV	ADV
+súz	NCO	su	_	FROLEX	NCO	NCO
+súz	PRE	sus	_	FROLEX	PRE	PRE
+sýrie	NPO	syrie	_	FROLEX	NPO	NPO
+sýriens	NPO	syrien	_	FROLEX	NPO	NPO
+sýriens	NCO	syrien	masc	LGERM	NCO	NCO
+tendúz	VERppe	tendre	_	FROLEX	VER	VER
+tenúe	NCO	tenue	fem	FROLEX	NCO	NCO
+tenúe	VER	tenir	_	BFMGOLDLEM	VER	VER
+tolúe	VER	tolir	_	BFMGOLDLEM	VER	VER
+trestúte	NCO	trestot	_	FROLEX	NCO	NCO
+trestúte	DET	trestot	_	FROLEX	DET	DET
+trestúte	PRO	trestot	_	FROLEX	PRO	PRO
+tú	VER	taire	_	FROLEX	VER	VER
+tú	DET	tot	_	FROLEX	DET	DET
+tú	PROper	toi	per	FROLEX	PRO	PRO
+túe	PRO	tien	_	FROLEX	PRO	PRO
+túe	VERcjg	taire	_	FROLEX	VER	VER
+túer	VERinf	tüer	_	FROLEX	VER	VER
+túns	ADJ	tuen	_	FROLEX	ADJ	ADJ
+tút	DET	tot	_	FROLEX	DET	DET
+tút	VER	taire	_	FROLEX	VER	VER
+tút	PRO	proind	_	FROLEX	PRO	PRO
+túte	NCO	tute	fem	FROLEX	NCO	NCO
+túte	ADV	tout	_	FROLEX	ADV	ADV
+túte	DET	tot	_	FROLEX	DET	DET
+túte	PRO	tot	_	FROLEX	PRO	PRO
+tútes	PRO	tot	_	FROLEX	PRO	PRO
+tútes	DET	tot	_	FROLEX	DET	DET
+tútes	ADVgen	tout	intensité	FROLEX	ADV	ADV
+tútes	NCO	tute	_	FROLEX	NCO	NCO
+tútes	ADJ	tout	_	FROLEX	ADJ	ADJ
+túz	ADV	tout	_	FROLEX	ADV	ADV
+túz	DET	tot	_	FROLEX	DET	DET
+túz	PRO	tot	_	FROLEX	PRO	PRO
+týr	NPO	tyr	_	LGERM	NPO	NPO
+týr	VER	tirer	_	FROLEX	VER	VER
+týr	NCO	tyr	masc	LGERM	NCO	NCO
+valúrent	VERcjg	valoir	_	FROLEX	VER	VER
+veneisún	NCO	venaison	_	FROLEX	NCO	NCO
+venúd	VERppe	venir	_	FROLEX	VER	VER
+venúdz	VER	venir	_	FROLEX	VER	VER
+venúe	NCO	venir	fem	FROLEX	NCO	NCO
+venúz	VER	venir	_	BFMGOLDLEM	VER	VER
+vúil	VER	vouloir	_	LGERM	VER	VER
+vús	PRE	vu	_	FROLEX	PRE	PRE
+vús	VER	voir	_	FROLEX	VER	VER
+vús	NCO	vide	_	FROLEX	NCO	NCO
+vús	PRO	vous	_	BFMGOLDLEM	PRO	PRO
+vús	DET	vostre	_	FROLEX	DET	DET
+ámúnt	ADVgen	amont	_	FROLEX	ADV	ADV
+ámúnt	NCO	amont	_	FROLEX	NCO	NCO
+áparút	VERcjg	apparaître	_	FROLEX	VER	VER
+átúr	NCO	atour	masc|fem	FROLEX	NCO	NCO
+ávenú	VER	avenir	_	FROLEX	VER	VER
+ávenú	NCO	avenu	masc	FROLEX	NCO	NCO
+énnúi	NCO	ennui	fem	FROLEX	NCO	NCO
+énnúi	VER	ennuyer	_	FROLEX	VER	VER
+óút	PRO	où	_	FROLEX	PRO	PRO
+óút	VERcjg	ouïr	_	FROLEX	VER	VER
+úm	PRO	on	_	BFMGOLDLEM	PRO	PRO
+úm	DET	un	_	FROLEX	DET	DET
+únes	DETndf	uns	_	FROLEX	DET	DET
+úns	DET	uns	_	FROLEX	DET	DET
+únt	DET	un	_	FROLEX	DET	DET
+úr	NPO	ur	_	FROLEX	NPO	NPO
+úre	INJ	hure	_	FROLEX	INJ	INJ
+úre	VER	hurer	_	FROLEX	VER	VER
+úre	PRO	ure	_	FROLEX	PRO	PRO
+úre	DET	vostre	_	FROLEX	DET	DET
+úre	NCO	heure	_	FROLEX	NCO	NCO
+úrent	VER	avoir	_	FROLEX	VER	VER
+úríe	NPO	urie	_	LGERM	NPO	NPO
+ús	DET	un	_	FROLEX	DET	DET
+ús	NCO	us	masc	FROLEX	NCO	NCO
+úverid	VER	ouvrir	_	FROLEX	VER	VER
+úvre	NCO	oeuvre	masc|fem	LGERM	NCO	NCO
+úvrér	VER	ouvrer	_	FROLEX	VER	VER
+úvrír	VER	ouvrir	_	BFMGOLDLEM	VER	VER
+úéilles	NCO	veille	_	FROLEX	NCO	NCO
+úéilles	VER	veiller	_	FROLEX	VER	VER
+úés	VER	voir	_	FROLEX	VER	VER
+úés	NCO	ues	masc	FROLEX	NCO	NCO
+úílz	ADJ	vil	_	FROLEX	ADJ	ADJ
+ýdle	NCO	idole	masc|fem	FROLEX	NCO	NCO
+ýdles	NCO	idole	masc|fem	FROLEX	NCO	NCO
+nues	NCO	nue	_	BFMGOLDLEM	NCO	
+nuef	ADJ	nuef	_	BFMGOLDLEM	ADJ	
+chascune	PRO	chascun	_	BFMGOLDLEM	PRO	
+abatuz	VER	abattre	_	BFMGOLDLEM	VER	
+destruite	VER	destruire	_	BFMGOLDLEM	VER	
+merveilus	ADJ	merveilleux	_	BFMGOLDLEM	ADJ	
+destruit	VER	destruire	_	BFMGOLDLEM	VER	
+escuiers	NCO	écuyer	_	BFMGOLDLEM	NCO	
+furent	VER	estre	_	BFMGOLDLEM	VER	
+chascune	DET	chascun	_	BFMGOLDLEM	DET	
+parurent	VERcjg	paroir	_	FROLEX	VER	
+out	VERcjg	avoir	_	FROLEX	VER	
+out	VERcjg	ouïr	_	FROLEX	VER	
+ourent	VERcjg	orer	_	FROLEX	VER	
+nus	PROind	nos	per	FROLEX	PRO	
+nus	PRO	nul	per	FROLEX	PRO	
+nus	PRO	nos	per	FROLEX	PRO	
+rechut	VERcjg	rechoir	_	FROLEX	VER	
+recunurent	VER	reconnaître	_	FROLEX	VER	
+refurent	VERcjg	rêtre	_	FROLEX	VER	
+remue	NCO	remue	fem	FROLEX	NCO	
+remue	VER	remuer	_	FROLEX	VER	
+remue	VER	remüer	_	FROLEX	VER	
+remuer	VERinf	remüer	_	FROLEX	VER	
+remuer	VERinf	remüer	_	FROLEX	VER	
+remue	VERcjg	remüer	_	FROLEX	VER	
+parut	VERcjg	paroir	_	FROLEX	VER	
+quer	NCO	coeur	_	FROLEX	NCO	
+pourent	VERcjg	pouvoir	_	FROLEX	VER	
+puin	NCO	point	masc	FROLEX	NCO	
+puis	VER	pöoir	_	FROLEX	VER	
+quer	VER	quérir	_	FROLEX	VER	
+puis	NCO	puy	masc	FROLEX	NCO	
+puis	NCO	puy	_	FROLEX	NCO	
+puis	VERcjg	pöoir	_	FROLEX	VER	
+puis	VERcjg	puis	_	FROLEX	VER	
+puldre	NCO	poudre	fem	FROLEX	NCO	
+purpre	NCO	pourpre	fem	FROLEX	NCO	
+puis	NCO	puits	_	FROLEX	NCO	
+nus	PROper	nul	per	FROLEX	PRO	
+nus	PROper	nos	per	FROLEX	PRO	
+n'	ADVneg	en	nég	FROLEX	ADV	
+nu	ADJcar	nuef	_	FROLEX	ADJ	
+n'	CON	ne	_	FROLEX	CON	
+nu	PRO	nul	_	FROLEX	PRO	
+nu	ADJqua	nuef	_	FROLEX	ADJ	
+nu	ADVneg	ne	nég	FROLEX	ADV	
+nu	ADJ	nu	_	FROLEX	ADJ	
+nu	ADJ	nuef	_	FROLEX	ADJ	
+nu	PRO	nous	per	FROLEX	PRO	
+nu	PROind	nul	per	FROLEX	PRO	
+nu	PROper	nous	per	FROLEX	PRO	
+nu	PROper	nul	per	FROLEX	PRO	
+n'	ADV	en	_	FROLEX	ADV	
+mesures	NCO	mesure	fem	FROLEX	NCO	
+mule	NCO	moelle	fem|plur	FROLEX	NCO	
+mule	NCO	mule	fem|plur	FROLEX	NCO	
+murs	NCO	mœurs	fem	FROLEX	NCO	
+mule	NCO	meule	masc	FROLEX	NCO	
+mule	NCO	mule	masc	FROLEX	NCO	
+mule	NCO	meule	fem	FROLEX	NCO	
+mule	NCO	moelle	fem	FROLEX	NCO	
+mule	NCO	mule	fem	FROLEX	NCO	
+munz	NCO	mont	masc	FROLEX	NCO	
+mule	NCO	moelle	masc	FROLEX	NCO	
+nues	ADJqua	nu	_	FROLEX	ADJ	
+nues	NCO	nu	_	FROLEX	NCO	
+nues	NCO	nue	_	FROLEX	NCO	
+nues	NCO	nüe	_	FROLEX	NCO	
+nues	VER	nuer	_	FROLEX	VER	
+nues	ADJ	nu	_	FROLEX	ADJ	
+nues	NCO	nu	fem	FROLEX	NCO	
+nués	VER	nuef	_	FROLEX	VER	
+nues	NCO	nue	fem	FROLEX	NCO	
+num	NCO	non	masc	FROLEX	NCO	
+nus	PRO	nos	_	FROLEX	PRO	
+nus	ADJqua	nu	_	FROLEX	ADJ	
+nus	PRO	nul	_	FROLEX	PRO	
+nus	ADJind	nu	_	FROLEX	ADJ	
+nues	NCO	nüe	fem	FROLEX	NCO	
+nuef	ADJqua	nuef	_	FROLEX	ADJ	
+nuef	ADJqua	nuef	ord	FROLEX	ADJ	
+nue	NCO	nue	_	FROLEX	NCO	
+nue	VER	nuer	_	FROLEX	VER	
+nue	NCO	nu	fem	FROLEX	NCO	
+nue	NCO	nue	fem	FROLEX	NCO	
+nue	ADJqua	nu	_	FROLEX	ADJ	
+nuef	ADJcar	nuef	_	FROLEX	ADJ	
+nue	NCO	nue	_	FROLEX	NCO	
+nue	NCO	nu	fem	FROLEX	NCO	
+nue	NCO	nue	fem	FROLEX	NCO	
+nue	ADJqua	nu	_	FROLEX	ADJ	
+nué	VER	noer	_	FROLEX	VER	
+nué	VER	nouer	_	FROLEX	VER	
+nué	VER	nuer	_	FROLEX	VER	
+nuef	DET	neuf	_	FROLEX	DET	
+nuef	ADJcar	nuef	ord	FROLEX	ADJ	
+nue	VER	nuer	_	FROLEX	VER	
+tuz	ADV	tout	intensité	FROLEX	ADV	
+tuz	ADVgen	tout	intensité	FROLEX	ADV	
+ueilles	NCO	veille	fem	FROLEX	NCO	
+ueiles	NCO	ouaille	_	FROLEX	NCO	
+um	PRO	on	_	FROLEX	PRO	
+um	PROind	on	per	FROLEX	PRO	
+unes	DET	uns	_	FROLEX	DET	
+ues	NCO	ues	masc	FROLEX	NCO	
+tutes	ADV	tout	intensité	FROLEX	ADV	
+tut	PRO	tot	_	FROLEX	PRO	
+tut	PRO	tout	_	FROLEX	PRO	
+tut	PRO	tüer	_	FROLEX	PRO	
+tut	VERcjg	taire	_	FROLEX	VER	
+tute	NCO	tute	_	FROLEX	NCO	
+tute	ADV	tout	intensité	FROLEX	ADV	
+tute	ADVgen	tout	intensité	FROLEX	ADV	
+tutes	ADV	tout	_	FROLEX	ADV	
+tutes	NCO	tute	fem	FROLEX	NCO	
+uns	DETndf	uns	_	FROLEX	DET	
+venue	NCO	venue	fem	FROLEX	NCO	
+venue	NCO	venüe	fem	FROLEX	NCO	
+venue	NCO	venir	_	FROLEX	NCO	
+venue	NCO	venue	_	FROLEX	NCO	
+venue	NCO	venüe	_	FROLEX	NCO	
+vus	PROper	vos	per	FROLEX	PRO	
+idle	NCO	idole	fem	FROLEX	NCO	
+idle	NCO	île	fem	FROLEX	NCO	
+idle	NCO	idole	masc|fem	FROLEX	NCO	
+idle	NCO	île	masc|fem	FROLEX	NCO	
+vus	PRO	vos	_	FROLEX	PRO	
+ure	NCO	hure	_	FROLEX	NCO	
+ure	NCO	ore	_	FROLEX	NCO	
+ure	VER	urer	_	FROLEX	VER	
+ure	NCO	heure	fem	FROLEX	NCO	
+ure	NCO	hure	fem	FROLEX	NCO	
+ure	NCO	ore	fem	FROLEX	NCO	
+us	NCO	ut	masc	FROLEX	NCO	
+us	NCO	us	masc plur	FROLEX	NCO	
+us	NCO	ut	masc plur	FROLEX	NCO	
+uns	DETcar	uns	_	FROLEX	DET	
+sout	VERcjg	seoir	_	FROLEX	VER	
+sout	VERcjg	soudre	_	FROLEX	VER	
+sout	VERcjg	souloir	_	FROLEX	VER	
+sue	NCO	sue	_	FROLEX	NCO	
+sue	PRO	süer	_	FROLEX	PRO	
+sue	NCO	su	fem	FROLEX	NCO	
+sue	NCO	sue	fem	FROLEX	NCO	
+sue	NCO	su	masc	FROLEX	NCO	
+sue	NCO	sue	masc	FROLEX	NCO	
+sue	VER	suer	_	FROLEX	VER	
+sout	VER	souloir	_	FROLEX	VER	
+sout	VER	soudre	_	FROLEX	VER	
+sout	VER	seoir	_	FROLEX	VER	
+s'	ADVgen	si	_	FROLEX	ADV	
+s'	CONsub	se	_	FROLEX	CON	
+s'	PROper	son	per	FROLEX	PRO	
+s'	PRO	son	per	FROLEX	PRO	
+s'	PROpos	son	per	FROLEX	PRO	
+serrunt	VER	estre	_	FROLEX	VER	
+serrunt	VER	être	_	FROLEX	VER	
+sout	VER	savoir	_	FROLEX	VER	
+tue	VERcjg	tuer	_	FROLEX	VER	
+tenue	NCO	tenu	masc	FROLEX	NCO	
+tenue	NCO	tenue	masc	FROLEX	NCO	
+tenue	NCO	tenu	fem	FROLEX	NCO	
+tu	PROind	toi	per	FROLEX	PRO	
+tu	PRO	toi	_	FROLEX	PRO	
+tu	VERcjg	taire	_	FROLEX	VER	
+tu	VERcjg	tüer	_	FROLEX	VER	
+tue	VER	taire	_	FROLEX	VER	
+tue	PRO	tuen	_	FROLEX	PRO	
+tue	VER	tuer	_	FROLEX	VER	
+tu	VER	tüer	_	FROLEX	VER	
+tenue	NCO	tenue	_	FROLEX	NCO	
+tenue	NCO	tenu	_	FROLEX	NCO	
+sun	VER	être	_	FROLEX	VER	
+sun	VERcjg	estre	_	FROLEX	VER	
+sun	VERcjg	être	_	FROLEX	VER	
+sun	NCO	suint	masc	FROLEX	NCO	
+suz	ADV	sus	_	FROLEX	ADV	
+suz	ADV	soz	_	FROLEX	ADV	
+suz	NCO	su	masc	FROLEX	NCO	
+menur	NCO	mineur	_	FROLEX	NCO	
+desuz	ADV	dessus	_	FROLEX	ADV	
+desuz	PRE	dessus	_	FROLEX	PRE	
+desuz	NCO	désus	masc	FROLEX	NCO	
+desuz	NCO	dessus	_	FROLEX	NCO	
+desuz	ADVgen	dessous	_	FROLEX	ADV	
+desuz	ADVgen	dessus	_	FROLEX	ADV	
+dous	ADJcar	doux	_	FROLEX	ADJ	
+desuz	NCO	désus	_	FROLEX	NCO	
+dous	ADJ	doux	_	FROLEX	ADJ	
+desus	NCO	dessus	_	FROLEX	NCO	
+curuciez	VERcjg	curucier	_	FROLEX	VER	
+descendue	VERppe	descendre	_	FROLEX	VER	
+descendue	NCO	descendue	_	FROLEX	NCO	
+desus	NCO	désus	masc	FROLEX	NCO	
+desure	PRE	dessure	_	FROLEX	PRE	
+desus	ADV	dessus	_	FROLEX	ADV	
+desus	NCO	dessus	masc	FROLEX	NCO	
+dous	ADJqua	doux	ord	FROLEX	ADJ	
+dous	NCO	deuil	masc	FROLEX	NCO	
+dune	NCO	dune	fem	FROLEX	NCO	
+eisuz	VER	issir	_	FROLEX	VER	
+menur	ADJqua	mineur	_	FROLEX	ADJ	
+encuntre	NCO	encontre	fem	FROLEX	NCO	
+eisud	VER	issir	_	FROLEX	VER	
+dous	ADJcar	doux	ord	FROLEX	ADJ	
+dun	DET	dun	_	FROLEX	DET	
+dun	NCO	don	_	FROLEX	NCO	
+dui	VER	devoir	_	FROLEX	VER	
+dui	VER	dire	_	FROLEX	VER	
+dui	VER	duire	_	FROLEX	VER	
+dui	NCO	duit	_	FROLEX	NCO	
+dui	VERcjg	deus	_	FROLEX	VER	
+dui	VERcjg	devoir	_	FROLEX	VER	
+dui	VERcjg	dire	_	FROLEX	VER	
+duit	VER	devoir	_	FROLEX	VER	
+duit	VER	duire	_	FROLEX	VER	
+duit	NCO	duit	masc	FROLEX	NCO	
+duit	NCO	duit	masc|fem	FROLEX	NCO	
+duit	VERppe	devoir	_	FROLEX	VER	
+duit	VERppe	duire	_	FROLEX	VER	
+dui	VERcjg	duire	_	FROLEX	VER	
+autel	ADVgen	autant	_	FROLEX	ADV	
+autel	ADVgen	autel	_	FROLEX	ADV	
+autel	NCO	autel	masc	FROLEX	NCO	
+autel	ADV	autant	_	FROLEX	ADV	
+autel	ADV	autel	_	FROLEX	ADV	
+autel	ADVgen	autant	_	FROLEX	ADV	
+autel	ADVgen	autel	_	FROLEX	ADV	
+autel	NCO	autel	masc	FROLEX	NCO	
+autre	PRO	autre	ind	FROLEX	PRO	
+autre	PROind	autre	ind	FROLEX	PRO	
+amunt	ADV	amont	_	FROLEX	ADV	
+amunt	NCO	amont	masc	FROLEX	NCO	
+amunt	ADV	amont	_	FROLEX	ADV	
+asur	NCO	azur	masc	FROLEX	NCO	
+amunt	NCO	amont	masc	FROLEX	NCO	
+aparut	VERcjg	apparoir	_	FROLEX	VER	
+aparut	VERcjg	apparoir	_	FROLEX	VER	
+assur	NCO	azur	_	FROLEX	NCO	
+avenu	VERppe	avenir	_	FROLEX	VER	
+c'	CONcoo	que/	_	FROLEX	CON	
+c'	CONsub	ce	_	FROLEX	CON	
+c'	CONsub	que	_	FROLEX	CON	
+c'	CONsub	que/	_	FROLEX	CON	
+c'	CONcoo	ce	_	FROLEX	CON	
+cuillir	VER	cueillir	_	FROLEX	VER	
+cuilir	VER	clore	_	FROLEX	VER	
+cuilir	VER	cueillir	_	FROLEX	VER	
+cunduit	NCO	conduit	masc	FROLEX	NCO	
+cues	NCO	choix	_	FROLEX	NCO	
+avenu	NCO	avenu	_	FROLEX	NCO	
+c'	CONsubs	que/	_	FROLEX	CON	
+c'	CONsubs	ce	_	FROLEX	CON	
+bues	VER	buer	_	FROLEX	VER	
+bues	NCO	buie	fem	FROLEX	NCO	
+bues	NCO	boeuf	_	FROLEX	NCO	
+bues	NCO	buie	_	FROLEX	NCO	
+bues	NCO	boeuf	masc	FROLEX	NCO	
+bues	NCO	buie	masc	FROLEX	NCO	
+c'	CONsubs	que	_	FROLEX	CON	
+c'	CON	que	_	FROLEX	CON	
+c'	CON	que/	_	FROLEX	CON	
+c'	PROrel	que	per	FROLEX	PRO	
+c'	PROint|ADVgen	que	per	FROLEX	PRO	
+c'	PROint	que	per	FROLEX	PRO	
+c'	PRO	que	_	FROLEX	PRO	
+c'	CON	ce	_	FROLEX	CON	
+encuntre	ADV	encontre	_	FROLEX	ADV	
+enui	NCO	ennui	_	FROLEX	NCO	
+lu	PROper	le	per	FROLEX	PRO	
+lu	PROper	lui	per	FROLEX	PRO	
+lui	PRO	lui	_	FROLEX	PRO	
+lui	VER	luire	_	FROLEX	VER	
+lu	PRO	le	per	FROLEX	PRO	
+lui	VERcjg	lire	_	FROLEX	VER	
+lui	PROper	loi	per	FROLEX	PRO	
+lui	PROper	lui	per	FROLEX	PRO	
+lui	PRO	loi	per	FROLEX	PRO	
+lui	PROind	lui	per	FROLEX	PRO	
+lui	PRO	lui	_	FROLEX	PRO	
+lui	VERcjg	luire	_	FROLEX	VER	
+lu	NCO	lieu	_	FROLEX	NCO	
+lu	PRO	lui	_	FROLEX	PRO	
+jur	NCO	jour	masc	FROLEX	NCO	
+ennui	NCO	ennui	masc	FROLEX	NCO	
+l'	PROper	lui	per	FROLEX	PRO	
+l'	PRO	li	per	FROLEX	PRO	
+l'	PROind	lui	per	FROLEX	PRO	
+l'	DETcar|DETind	le	def	FROLEX	DET	
+l'	PRO	li	_	FROLEX	PRO	
+l'	PRO	lui	_	FROLEX	PRO	
+l'	DETdef	le	def	FROLEX	DET	
+lu	PRO	le	_	FROLEX	PRO	
+lu	NCO	lieu	masc	FROLEX	NCO	
+lu	NCO	loup	masc	FROLEX	NCO	
+lui	VER	luire	_	FROLEX	VER	
+lui	VERcjg	lire	_	FROLEX	VER	
+lui	PROper	loi	per	FROLEX	PRO	
+mez	ADV	mais	_	FROLEX	ADV	
+mez	NCO	mes	_	FROLEX	NCO	
+mez	NCO	metre	_	FROLEX	NCO	
+mez	VER	metre	_	FROLEX	VER	
+mez	NCO	mets	_	FROLEX	NCO	
+mez	VERcjg	manoir	_	FROLEX	VER	
+mez	VERcjg	metre	_	FROLEX	VER	
+mez	VERcjg	mettre	_	FROLEX	VER	
+mez	NCO	mais	masc	FROLEX	NCO	
+mez	NCO	mes	masc	FROLEX	NCO	
+mez	NCO	metre	masc	FROLEX	NCO	
+mez	NCO	mets	masc	FROLEX	NCO	
+mez	VER	mettre	_	FROLEX	VER	
+m'	PRO	me	per	FROLEX	PRO	
+m'	PROper	mon	per	FROLEX	PRO	
+lui	PROper	lui	per	FROLEX	PRO	
+lui	PRO	loi	per	FROLEX	PRO	
+lui	PROind	lui	per	FROLEX	PRO	
+lune	NCO	lune	fem	FROLEX	NCO	
+lut	VER	loisir	_	FROLEX	VER	
+lut	NCO	luth	masc	FROLEX	NCO	
+lut	VERcjg	lire	_	FROLEX	VER	
+lut	VERcjg	loisir	_	FROLEX	VER	
+lut	NCO	lut	_	FROLEX	NCO	
+lut	NCO	luth	_	FROLEX	NCO	
+m'	PRO	me	_	FROLEX	PRO	
+m'	PRO	mon	_	FROLEX	PRO	
+m'	PROper	me	per	FROLEX	PRO	
+lui	VERcjg	luire	_	FROLEX	VER	
+jut	VERcjg	gésir	_	FROLEX	VER	
+estue	NCO	éteuf	_	FROLEX	NCO	
+esturent	VERcjg	estovoir	_	FROLEX	VER	
+estut	VERcjg	estovoir	_	FROLEX	VER	
+estut	VER	ester	_	FROLEX	VER	
+estut	VER	estovoir	_	FROLEX	VER	
+juintes	VERppe	joindre	_	FROLEX	VER	
+frunt	NCO	front	_	FROLEX	NCO	
+fu	NCO	feu	masc	FROLEX	NCO	
+enui	NCO	enui	_	FROLEX	NCO	
+enui	NCO	ennui	masc	FROLEX	NCO	
+enui	NCO	enui	masc	FROLEX	NCO	
+entr'	VER	entraider	_	FROLEX	VER	
+entr'	VER	entraimer	_	FROLEX	VER	
+entr'	VER	entr'aproismier	_	FROLEX	VER	
+entr'	VER	entrencontrer	_	FROLEX	VER	
+entr'	VER	entroccire	_	FROLEX	VER	
+entur	ADV	entour	_	FROLEX	ADV	
+entur	ADVgen	entor	_	FROLEX	ADV	
+entur	ADVgen	entour	_	FROLEX	ADV	
+eslue	VER	élire	_	FROLEX	VER	
+esmut	NCO	esmut	_	FROLEX	NCO	
+esmut	VER	émouvoir	_	FROLEX	VER	
+fui	VERppe	être	_	FROLEX	VER	
+fruiz	NCO	fruit	_	FROLEX	NCO	
+fui	NCO	fuie	fem	FROLEX	NCO	
+fui	VER	être	_	FROLEX	VER	
+huche	NCO	huche	masc	FROLEX	NCO	
+huche	NCO	huche	fem	FROLEX	NCO	
+fust	VERcjg	fût	_	FROLEX	VER	
+juges	NCO	juge	_	FROLEX	NCO	
+jugier	NCO	gésier	masc	FROLEX	NCO	
+jugier	VER	juger	_	FROLEX	VER	
+juintes	VERppe	joindre	_	FROLEX	VER	
+fust	NCO	fût	_	FROLEX	NCO	
+idles	NCO	île	masc|fem	FROLEX	NCO	
+fuie	VERppe	fuir	_	FROLEX	VER	
+fuie	VERcjg	fuir	_	FROLEX	VER	
+fuie	NCO	fuie	fem	FROLEX	NCO	
+funz	NCO	font	masc	FROLEX	NCO	
+fus	NCO	feu	_	FROLEX	NCO	
+funz	NCO	fonts	masc	FROLEX	NCO	
+fus	NCO	feu	masc	FROLEX	NCO	
+fus	VER	fondre	_	FROLEX	VER	
+fus	NCO	fût	_	FROLEX	NCO	
+assur	NCO	azur	masc	LGERM	NCO	
+ydles	NCO	idole	masc|fem	LGERM	NCO	
+syrie	NPO	syrie	_	LGERM	NPO	
+assur	NPO	assur	_	LGERM	NPO	
+malfaiturs	NCO	malfaiteur	_	LGERM	NCO	

@@ -1,0 +1,55 @@
+form	def_pos	def_lemma	def_morph	source	UPOS	pos
+amúnt	ADVgen	amont	_	FROLEX	ADV	ADV
+assúr	ADV	assûr	_	LGERM	ADV	ADV
+aútel	ADV	autel	_	FROLEX	ADV	ADV
+aútél	ADV	autant	_	FROLEX	ADV	ADV
+c´	ADV	si	_	FROLEX	ADV	ADV
+desúre	ADVgen	dessure	lieu	FROLEX	ADV	ADV
+desús	ADVgen	dessus	_	FROLEX	ADV	ADV
+desúz	ADV	dessous	_	FROLEX	ADV	ADV
+doús	ADV	doux	_	FROLEX	ADV	ADV
+dúne	ADV	dunne	_	FROLEX	ADV	ADV
+dúres	ADV	dur	_	FROLEX	ADV	ADV
+encúntre	ADVgen	encontre	_	FROLEX	ADV	ADV
+entúr	ADV	entor	_	FROLEX	ADV	ADV
+meez	ADV	mais	intensité	FROLEX	ADV	ADV
+n´	ADVgen	en	nég	FROLEX	ADV	ADV
+nú	ADV	ne	_	FROLEX	ADV	ADV
+partút	ADV	partout	_	BFMGOLDLEM	ADV	ADV
+sicúme	ADV	sicomme	_	FROLEX	ADV	ADV
+s´	ADV	si	_	FROLEX	ADV	ADV
+súlement	ADVgen	seulement	_	FROLEX	ADV	ADV
+súz	ADVgen	soz	_	FROLEX	ADV	ADV
+túte	ADV	tout	_	FROLEX	ADV	ADV
+tútes	ADVgen	tout	intensité	FROLEX	ADV	ADV
+túz	ADV	tout	_	FROLEX	ADV	ADV
+ámúnt	ADVgen	amont	_	FROLEX	ADV	ADV
+n'	ADVneg	en	nég	FROLEX	ADV	
+nu	ADVneg	ne	nég	FROLEX	ADV	
+n'	ADV	en	_	FROLEX	ADV	
+tuz	ADV	tout	intensité	FROLEX	ADV	
+tuz	ADVgen	tout	intensité	FROLEX	ADV	
+tutes	ADV	tout	intensité	FROLEX	ADV	
+tute	ADV	tout	intensité	FROLEX	ADV	
+tute	ADVgen	tout	intensité	FROLEX	ADV	
+tutes	ADV	tout	_	FROLEX	ADV	
+s'	ADVgen	si	_	FROLEX	ADV	
+suz	ADV	sus	_	FROLEX	ADV	
+suz	ADV	soz	_	FROLEX	ADV	
+desuz	ADV	dessus	_	FROLEX	ADV	
+desuz	ADVgen	dessous	_	FROLEX	ADV	
+desuz	ADVgen	dessus	_	FROLEX	ADV	
+desus	ADV	dessus	_	FROLEX	ADV	
+autel	ADVgen	autant	_	FROLEX	ADV	
+autel	ADVgen	autel	_	FROLEX	ADV	
+autel	ADV	autant	_	FROLEX	ADV	
+autel	ADV	autel	_	FROLEX	ADV	
+autel	ADVgen	autant	_	FROLEX	ADV	
+autel	ADVgen	autel	_	FROLEX	ADV	
+amunt	ADV	amont	_	FROLEX	ADV	
+amunt	ADV	amont	_	FROLEX	ADV	
+encuntre	ADV	encontre	_	FROLEX	ADV	
+mez	ADV	mais	_	FROLEX	ADV	
+entur	ADV	entour	_	FROLEX	ADV	
+entur	ADVgen	entor	_	FROLEX	ADV	
+entur	ADVgen	entour	_	FROLEX	ADV	
